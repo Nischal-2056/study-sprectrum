@@ -1,0 +1,191 @@
+.custome-card {
+  width: auto;
+  border-radius: 40px 0 40px 0 !important;
+  position: relative !important;
+}
+
+.card-image-testo {
+  position: absolute !important;
+  top: -55px !important;
+  left: 41px !important;
+  z-index: 1 !important;
+}
+
+.slick-slide {
+  padding-top: 53px !important;
+}
+
+.slick-slide > div {
+  margin: 0 5px !important;
+}
+
+/* Your Pathway to Academic Success with our Expert Guidance
+Lorem ipsum, dolor sit amet consectetur adipisicing elit ab doloremque asperiores, ipsum, dolor sit amet consectetur adipisicing elit. Commodi aba
+AOBOUT US
+Presidental education is an education consultancy specializing in providing one of the finest academic advising services for students who are interested in studying abroad such as Australia, Canada, Europe, USA, and Japan. With our team of professional consultants and years of experience, Presidental offers high quality advising services for studying abroad.Presidental’s mission is to guide our students from the very beginning and walk along with them in every step, leading them to their academic destination.
+
+CHOOSE YOUR DESTINATION
+study in usa2024
+STUDY IN USA
+The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the.....
+
+Read Mor
+study in canada2024
+STUDY IN CANADA
+The Canada is a country of 50 states covering a vas swath of North America, with Alaska in the.....
+
+Read More
+study in uk2024
+STUDY IN UK
+The UK is a country of 50 states covering a vas swath of North America, with Alaska in the.....
+
+Read More 
+WORKING PROCESS
+A work process is any method that employees use to create value for the company. Companies often create company or industry-specific work processes to accomplish
+
+Talk With Conselor
+
+Talk With Conselor
+
+Talk With Conselor
+
+Talk With Conselor
+OUR CORE STRENGTH
+
+Student Assisted
+In reality, though, this is a valuable opportunity to showcase your skills and personality.
+
+
+Student Assisted
+In reality, though, this is a valuable opportunity to showcase your skills and personality.
+
+
+Student Assisted
+In reality, though, this is a valuable opportunity to showcase your skills and personality.
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+
+Heklo mihi
+jdlahdahdk dahdkahd dakhdha
+
+this
+1
+2
+3
+4
+
+Presedential Education Conusltancy
+ Aloknagar Tinkune
+
+ 977-9800682681
+
+ enquiry@gmail.com
+
+Office Hours
+
+Monday-Friday: 9 AM - 5 PM
+
+Links
+About Us
+FAQs
+Study in USA
+Study in Canada
+Study in UK
+IELTS
+TOFEL
+Contact Us
+Register */
+
+ .star-rating {
+  display: none !important;
+} 
+
+.custome-card:hover .star-rating {
+  display: block !important;
+  color: #fea200 !important;
+  display: flex !important;
+  gap: 5px !important;
+  padding-left: 41px !important
+}
+
+.custome-card:hover {
+  background-color: #0d4a76 !important;
+  color: white !important;
+  border-radius: 40px 0 40px 0 !important;
+}
+
+.custome-card:hover .card-text {
+  color: #fff !important;
+}
+.testo-user-image {
+  border: 1px solid;
+  border-radius: 50%;
+  height: 121px;
+  width: 125px;
+  position: absolute !important;
+  top: -45px !important;
+  left: 41px !important;
+}
+/* .slick-list {
+  margin: 0 70px !important;
+  
+ } */
+
+ /* .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+ }
+ .sucessstoreies-card {
+  padding: 35px 0px 0px !important;
+  background-color: rgb(248, 246, 246) !important;
+  position: relative !important;
+  font-family: Italianno cursive !important;
+}
+
+.sucessstoreies-logo-wrapper {
+  width: 40px !important;
+  position: absolute !important;
+  right: 20px !important;
+  top: 10px !important;
+  height: 56px !important;
+}
+
+.sucessstoreies-card-content {
+  padding: 15px 0 10px 0 !important;
+}
+
+ @media screen and (max-width: 600px) {
+  .slick-list {
+    margin: auto !important;  }
+}   */

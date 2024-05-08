@@ -1,0 +1,27 @@
+footer {
+  width: 1440;
+  background-color: #0a2870;
+  color: white;
+}
+footer .content {
+  padding: 60px;
+}
+.contact-info p {
+  margin-bottom: 5px;
+}
+footer li {
+  list-style: none;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .content {
+    padding: 0;
+  }
+
+  .captionc {
+    bottom: 0;
+    width: 100%;
+    right: 0;
+  }
+}

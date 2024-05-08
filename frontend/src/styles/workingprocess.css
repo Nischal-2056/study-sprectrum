@@ -1,0 +1,52 @@
+.wrok-process-wrapper {
+  width: 100% !important;
+  margin-bottom: 20px !important;
+}
+
+.wp-header {
+  font-size: 35px;
+}
+
+.wp-description {
+  padding: 15px 2px !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+.wp-card-wrapper {
+  gap: 80px !important;
+  justify-content: center !important;
+  margin-top: 20px !important;
+}
+
+.wp-card {
+  width: 270px !important;
+  height: 300px;
+}
+
+
+
+.wp-card-img img {
+  width: 100% !important;
+ 
+  object-fit: cover !important;
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .wrok-process-wrapper {
+    padding-bottom: 5px !important;
+  }
+  .wp-card-wrapper {
+    gap: 10px !important;}
+}
+@media screen and (max-width: 1366px)  {
+  /* Your CSS styles for this resolution go here */
+
+
+.wp-card {
+    max-width: 200px !important;
+    height:fit-content;
+}
+.wp-card-img img
+{ height: 150px !important;
+    
+}}

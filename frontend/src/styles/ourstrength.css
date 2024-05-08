@@ -1,0 +1,31 @@
+.strength-container {
+  margin-bottom: 20px;
+}
+
+.strength-water-mark {
+  background-image: url("../assets/strength//strengthbg.png");
+  height: 654px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+.strength-contain-wrapper {
+  position: absolute !important;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .strength-water-mark {
+    background-image: unset;
+    height: 100% !important;
+  }
+  .strength-contain-wrapper {
+    gap: 10px !important;
+    position: unset !important;
+    justify-content: unset !important;
+  flex-wrap: wrap;}
+}

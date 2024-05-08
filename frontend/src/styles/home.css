@@ -1,0 +1,96 @@
+.captionc {
+  bottom: 100px;
+  right: 100px;
+}
+.carousel .carousel-indicators {
+  margin-bottom: 60px;
+}
+.carousel .carousel-indicators .active {
+  background-color: #c80104;
+}
+.ad {
+  bottom: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+/* Choose destination */
+.choosedestination {
+  min-height: 598px;
+  background-color: #edf0f7;
+}
+.cardtext {
+  color: #c80104;
+  font-size: 17px;
+}
+.col-md-2 {
+  top: 130px;
+  left: 250px;
+  height: 60px;
+  width: 50px;
+  border-radius: 50%;
+  background-color:#fea201;}
+
+/* working Process */
+.workingprocess {
+  min-height: 400px;
+}
+/* Core Strength */
+.corestrength {
+  min-height: 400px;
+}
+/* testimonial */
+.h-about-us-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  width: 100% !important;
+}
+
+.h-abt-us-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.h-abt-us-description .h-abt-header {
+  font-size: 35px;
+}
+
+.h-abt-img {
+  width: 440px !important;
+  height: 426px !important;
+}
+
+
+.add-section{
+      
+ position: absolute;
+ 
+bottom:110px;
+
+}
+.closebtn{
+  height:20px;
+  width:20px
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .h-about-us-wrapper {
+    flex-direction: column !important;
+  }
+  .h-abt-us-description {
+    gap: 5px !important;
+    margin-top: 5px !important;
+  }
+  .h-abt-header {
+    font-size: 25px !important;
+  }
+  .h-abt-content {
+    font-size: 14px !important;
+  }
+  .h-abt-img {
+    display: none !important;}
+    .adflex{
+      flex-direction: column;
+    }
+}

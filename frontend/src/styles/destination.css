@@ -1,0 +1,72 @@
+.destination-wrapper {
+  background-color: #edf0f7 !important;
+  padding: 29px 0px 72px 0px !important;
+}
+
+.desti-header {
+  font-size: 35px 
+}
+.destination-card {
+  
+  max-width: 388px !important;
+}
+
+.card-wrapper {
+  gap: 80px !important;
+}
+.desti-badge {
+  height: 68px !important;
+  width: 67px !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  right: 10px !important;
+  bottom: 1px !important;
+  background-color: #fea201 !important;
+}
+
+.card-title {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+.card-text {
+  font-size: 14px !important;
+  
+}
+
+.read-more {
+  color: #c80104 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .desti-header {
+    font-size: 25px !important;
+  }
+  .card-wrapper {
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    margin: 0px 10px !important;}
+}
+@media screen and (max-width: 1366px)  {
+  /* Your CSS styles for this resolution go here */
+.destination-card {
+    max-width: 388px !important;
+}
+.card-wrapper{
+  flex-direction: row;
+  margin:auto;
+}
+}
+@media screen and (max-width: 1280px)  {
+  /* Your CSS styles for this resolution go here */
+.destination-card {
+    max-width: 388px !important;
+}
+.card-wrapper{
+  flex-direction: row;
+  margin:auto;
+}
+}

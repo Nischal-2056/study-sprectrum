@@ -1,0 +1,65 @@
+.backgroundimage {
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: brightness(60%);
+background-size: cover;
+  background-image: url("../assets/Aboutus.png");
+  background-repeat: no-repeat;
+}
+.backgroundimage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for darkness */
+}
+
+.container1 {
+  position: relative; /* Ensure z-index works */
+  z-index: 1; /* Place above the pseudo-element */
+}
+.ad {
+  bottom: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.ad {
+  background-color: #fea201;
+}
+.cardheader {
+  left: 50px;
+  background-color: white;
+  top: -15px;
+  z-index: 1;
+}
+
+.h2 .b {
+  color: #0d4a76;
+}
+@media (max-width: 767px) {
+  .backgroundimage {
+
+    height:300px;
+
+  }
+  .aboutus {
+    padding-top: 30px;
+  }
+  .visionimg {
+    display: none;
+  }
+  .cardheader {
+    background-color: transparent;
+    left: 10px;
+  }
+  .servicedescription {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .servimg {
+    height: 100px;
+    width: 100px;
+  }
+}

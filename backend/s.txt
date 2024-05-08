@@ -1,0 +1,65 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/contact/study-abroad/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'X-CSRFToken: wtAIVVrUp4Chs8e127xhnFb1ugPEwnZyYA0qRzEUBqhlJhCYz2esb4hxkwXaa2vq' \
+  -d '{
+  "full_name": "string",
+  "address": "string",
+  "contact_number": "string",
+  "email": "user@example.com",
+  "passed_year": "string",
+  "gpa_percentage": "string",
+  "faculty": "string",
+  "desired_country": "string",
+  "desired_course": "string",
+  "language_profiency": {}
+}'
+{
+  "id": 5,
+  "created": "2024-02-07T22:45:14.180610+05:45",
+  "updated": "2024-02-07T22:45:14.180610+05:45",
+  "full_name": "string",
+  "address": "string",
+  "contact_number": "string",
+  "email": "user@example.com",
+  "passed_year": "string",
+  "gpa_percentage": "string",
+  "faculty": "string",
+  "desired_country": "string",
+  "desired_course": "string",
+  "language_profiency": {}
+}
+
+
+//testpreparation
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/contact/test-prepration/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'X-CSRFToken: wtAIVVrUp4Chs8e127xhnFb1ugPEwnZyYA0qRzEUBqhlJhCYz2esb4hxkwXaa2vq' \
+  -d '{
+  "full_name": "string",
+  "address": "string",
+  "contact_number": "string",
+  "email": "user@example.com",
+  "passed_year": "string",
+  "gpa_percentage": "string",
+  "faculty": "string",
+  "desired_country": "string",
+  "desired_course": "string"
+}'
+{
+  "id": 6,
+  "created": "2024-02-07T22:46:01.452762+05:45",
+  "updated": "2024-02-07T22:46:01.452762+05:45",
+  "full_name": "string",
+  "address": "string",
+  "contact_number": "string",
+  "email": "user@example.com",
+  "passed_year": "string",
+  "gpa_percentage": "string",
+  "faculty": "string",
+  "desired_country": "string",
+  "desired_course": "string"
+}

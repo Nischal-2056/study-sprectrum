@@ -1,0 +1,150 @@
+
+body {
+  margin: 0 !important;
+height: 100vh !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.h1 {
+  font-size: 35px !important;
+  font-weight: bold !important;
+  
+}
+p{
+letter-spacing: 0.5px;
+}
+.label {
+  font-size: 18px !important;
+  color: #373636 !important;
+}
+
+.react-datepicker-wrapper {
+  display: flex !important;
+}
+button#dropdown-flags {
+  background-color: #fff !important;
+  color: black !important;
+}
+
+.header {
+  font-size: 35px;
+}
+.fbold{
+  font-weight: bold;
+}
+/* font size */
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20{
+  font-size: 20px !important;
+}
+
+.fs-24{
+  font-size: 24px !important;
+  
+
+}
+.fs-32 {
+  font-size: 32px !important;
+  font-family: 'Impact', sans-serif;
+  
+
+}
+.fs-35 {
+  font-size: 35px !important;
+  font-family: 'Impact', sans-serif;
+
+}
+
+.namelogo{
+  line-height: 20px;
+}
+
+/* color */
+.color-main {
+  color:#0a2870 !important;
+}
+
+.color-secondary {
+  color:#b31942 !important;
+}
+.color-red {
+  color: #c80104 !important;
+}
+
+.sec-400{
+  height:400px;
+}
+.sec-768{
+  height:768px;
+}
+.error{
+    color:red
+}
+.m-text{
+
+  color:#0a2870 !important;
+  
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .header {
+    font-size: 25px !important;
+  }
+
+  .fs-14{
+    font-size: 14px !important; 
+  }
+
+  .fs-15{
+    font-size: 12px !important;
+  }
+
+  .fs-16{
+   font-size: 14px !important;
+  }
+
+  .fs-18{
+    font-size: 15px !important;
+  }
+
+  .fs-20{
+    font-size: 12px !important;
+  }
+  .fs-24{
+    font-size: 19px !important;
+  }
+.fs-32{
+  font-size: 20px! important;
+}
+  .fs-35 {
+    font-size: 22px !important;
+  font-weight: bold;}
+    .namelogo{
+      line-height: 15px;
+    }
+    .sec-400{
+      height:auto;
+    }
+}
+.ad-wrapper{
+  display: flex;
+  align-items:center;
+  gap:10px;
+  width:100%;
+
+}
+.models .modal-content{ 
+  background-color: #E4E9F6}

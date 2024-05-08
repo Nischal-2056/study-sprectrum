@@ -1,0 +1,91 @@
+{ "USA":[
+    {
+
+   "id": 1,
+    "url":" ../asset/Vector.png",
+    "step":"Step 1",
+    "definition": "Select the institutions you want to apply and apply for the desired course to receive I-20 with SEVIS number."
+  
+
+},
+{
+
+   "id": 2,
+    "url":" ../asset/text-box-check-outline.png",
+    "step":"Step 2",
+    "definition":"Complete the DS-160 Form & Pay $185 for the Interview." 
+  
+
+},
+{
+
+   "id": 3,
+    "url":" ../asset/account-tie-woman.png",
+    "step":"Step 3",
+    "definition": "Book the US Embassy Appointment to attend Visa Interview."
+
+},
+{
+
+   "id": 4,
+    "url":"../asset/cash-100.png",
+    "step":"Step 4",
+    "definition":"Pay $350 as SEVIS (Student and Exchange Visitor Information System) Fee."
+  
+
+},
+{
+
+   "id": 5,
+    "url":"../asset/office.png",
+    "step":"Step 5",
+    "definition": "Attend the visa Interview via nearest US embassy/consulate. Make sure to bring your valid passport, I-20, Academic transcripts marksheets, SEVIS receipt, and DS-160 form while attending interview."
+  
+
+}
+],
+"UK":[
+    {
+        "id": 1,
+    "url":" ../asset/UK/Vector.png",
+    "step":"Step 1",
+    "definition": "Complete the standardized language proficiency tests like IELTS, TOEFL, and PTE."
+    },
+ 
+      {
+        "id": 2,
+    "url":" ../asset/UK/ukvisaStep2.png",
+    "step":"Step 2",
+    "definition": "Search for the appropriate education institution and apply for the desired course. (You must also attend the Pre-CAS interview)"
+    },
+      {
+        "id": 3,
+    "url":" ../asset/UK/cash-100.png",
+    "step":"Step 3",
+    "definition": "Receive the admission letter and pay the tuition fees (at least 50% for most of the institutions)"
+    },
+      {
+        "id": 4,
+    "url":" ../asset/UK/ukvisaStep4.png",
+    "step":"Step 4",
+    "definition": "Prepare the financial documents to prove your eligibility to sustain as student in UK during your stay."
+    },
+      {
+        "id": 5,
+    "url":" ../asset/UK/heart-pulse.png",
+    "step":"Step 5",
+    "definition": "Complete the medical examination (TB certificate) from the authorized health assessment center."
+    },
+      {
+        "id": 6,
+    "url":" ../asset/UK/ukvisaStep6.png",
+    "step":"Step 1",
+    "definition": "Obtain the CAS letter, and prepare Immigration Health Surcharge (IHS)."
+    } ,    {
+        "id": 7,
+    "url":" ../asset/UK/send.png",
+    "step":"Step 1",
+    "definition": "Submit documents Via nearest visa application center and wait for the decision."
+    }
+]
+}

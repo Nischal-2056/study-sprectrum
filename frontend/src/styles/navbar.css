@@ -1,0 +1,64 @@
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.navbar-toggler:focus {
+  color: transparent !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.active {
+  color: #fea201 !important;
+}
+.navcolor {
+  color: black;
+}
+.about-adjust {
+  /* Example styles to adjust the link presentation */
+  padding-left: 10px; /* Adjust the left padding */
+  padding-right: 10px; /* Adjust the right padding */
+  font-size: 14px; /* Adjust the font size */
+}
+/* Footer */
+footer {
+  background-color: #0d4a76;
+  color: white;
+}
+footer .content {
+  padding: 60px;
+}
+.contact-info p {
+  margin-bottom: 5px;
+}
+footer li {
+  list-style: none;
+  padding-top: 10px;
+}
+.dropdownitem .nav-link {
+  color: black;
+  font-weight: normal;
+}
+
+.dropdown-item:active {
+  background-color: rgb(13, 74, 118) !important  ;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(13, 74, 118) !important  ;
+  color: white !important;
+}
+
+@media only screen and (max-width: 767px) {
+  footer .content {
+    padding: 0;
+  }
+
+  .captionc {
+    bottom: 0;
+    width: 100%;
+    right: 0;
+  }
+}

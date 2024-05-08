@@ -1,0 +1,76 @@
+/* .ieltsbackimage {
+background-size: cover;
+  width: 100% !important;
+  height: 100vh ;
+  color: white;
+  background-repeat: no-repeat;
+  background-image: url("../assets/Ieltsoverview.png");
+} */
+@media (max-width: 767px) {
+  .ieltsbackimage,
+  .totaltest {
+    background-position: center;
+    height: auto; /* or set a different height for small screens */
+    background-size: cover; /* or other appropriate size */
+  }
+
+  .backimage{
+        padding-top: 30px;
+    } 
+  .totaltest {
+    height: auto;
+    background-size: cover;
+  }
+}
+
+.totaltest {
+  position: relative; /* Ensure the container is positioned relative */
+  width: 100%;
+  height: auto;
+  color: white;
+  background-image: url("../assets/Ieltsduration.jpg");
+}
+
+.totaltest::before {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute; /* Position the overlay absolutely */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+  mix-blend-mode: multiply; /* Blend mode to blend with the background */
+}
+
+.totaltest h1,
+.totaltest p {
+  position: relative; /* Ensure text content stays on top of the overlay */
+  z-index: 1; /* Ensure text content stays on top of the overlay */
+}
+
+.totaltest::before {
+  filter: brightness(0.7); /* Adjust the brightness value as needed */
+}
+
+.ieltsbackimage {
+  position: relative; /* Ensure the container is positioned relative */
+  width: 100% !important;
+  height: 100vh;
+  color: white;
+ background-image: url("../assets/Ieltsoverview.png");
+}
+
+.ieltsbackimage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for darkness */
+}
+
+.container1 {
+  position: relative; /* Ensure z-index works */
+  z-index: 1; /* Place above the pseudo-element */
+}
