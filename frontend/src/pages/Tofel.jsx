@@ -9,8 +9,8 @@ const Tofel = () => {
       <Container fluid style={{ padding: "0px", margin: "0px" }}>
         <section className="tofelOverview container-fluid pt-lg-5">
           <div className="container pt-lg-5 pt-5 pt-sm-3 mt-lg-5 mt-sm-3 d-flex flex-column">
-            <span style={{ color: "#fea201" }}>
-              <h1 className="fs-35">TOFEL : AN OVERVIEW</h1>
+            <span>
+              <h1 className="fs-35 color-white">TOFEL : AN OVERVIEW</h1>
             </span>
             <div className=" pt-lg-3 ">
               <p
@@ -35,7 +35,9 @@ const Tofel = () => {
         <section className="typesoftofel d-flex   align-items-center container-fluid">
           <div className="container">
             <div className="col-lg-12">
-              <h1 className="section-heading  pt-3 fs-35">TYPES OF TOFEL</h1>
+              <h1 className="section-heading color-main  pt-3 fs-35">
+                TYPES OF TOFEL
+              </h1>
             </div>
             <p
               className="  col-12 pt-lg-3  d-flex  "
@@ -54,7 +56,9 @@ const Tofel = () => {
           <div className="conatiner"></div>
           <div className="container">
             <div className="col-12   ">
-              <h1 className="section-heading  pt-lg-3 fs-35">TEST OVERVIEW</h1>
+              <h1 className="section-heading color-main pt-lg-3 fs-35">
+                TEST OVERVIEW
+              </h1>
               <p
                 className="  col-12 pt-4  d-flex text-center "
                 style={{ fontSize: "14px" }}
@@ -74,18 +78,18 @@ const Tofel = () => {
                   <thead>
                     <tr>
                       <th
+                        className="bg-main"
                         style={{
-                          backgroundColor: "#0d4a76",
-                          color: "#fea201",
+                          color: "white",
                           padding: "5px",
                         }}
                       >
                         READING
                       </th>
                       <th
+                        className="bg-main"
                         style={{
-                          backgroundColor: "#0d4a76",
-                          color: "#fea201",
+                          color: "white",
                           padding: "5px",
                         }}
                       >
@@ -112,18 +116,18 @@ const Tofel = () => {
                   <thead>
                     <tr>
                       <th
+                        className="bg-main"
                         style={{
-                          backgroundColor: "#0d4a76",
-                          color: "#fea201",
+                          color: "white",
                           padding: "5px",
                         }}
                       >
                         SPEAKING
                       </th>
                       <th
+                        className="bg-main"
                         style={{
-                          backgroundColor: "#0d4a76",
-                          color: "#fea201",
+                          color: "white",
                           padding: "5px",
                         }}
                       >
@@ -171,7 +175,9 @@ const Tofel = () => {
         <section className="container-fluid testoverview p-lg-5 p-sm-3">
           <div className="container">
             <div className="col-12   ">
-              <h1 className="section-heading  pt-3 fs-35">SCORING BASIS</h1>
+              <h1 className="section-heading color-main pt-3 fs-35">
+                SCORING BASIS
+              </h1>
               <p
                 className="  col-12 pt-4  d-flex "
                 style={{ fontSize: "15px" }}
@@ -189,27 +195,27 @@ const Tofel = () => {
                 <thead>
                   <tr>
                     <th
+                      className="bg-main"
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        color: "white",
                         padding: "5px",
                       }}
                     >
                       SKILLS
                     </th>
                     <th
+                      className="bg-main"
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        color: "white",
                         padding: "5px",
                       }}
                     >
                       ABILITY
                     </th>
                     <th
+                      className="bg-main"
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        color: "white",
                         padding: "5px",
                       }}
                     >
@@ -288,7 +294,9 @@ const Tofel = () => {
                 <tbody>
                   <tr>
                     <td className="fbold">Total</td>
-                    <td  className ="fbold "  colSpan={2} >0-120</td>
+                    <td className="fbold " colSpan={2}>
+                      0-120
+                    </td>
                   </tr>
                 </tbody>
               </Table>
@@ -297,9 +305,7 @@ const Tofel = () => {
         </section>
         <section className=" container-fluid  mt-lg-4 pt-lg-5">
           <div className=" container pt-4 p-3 ">
-            <h2 className="fs-35" style={{ color: "#0d4a76" }}>
-              FAQ
-            </h2>
+            <h2 className="fs-35 color-main">FAQ</h2>
 
             <FAQTOFEL />
           </div>

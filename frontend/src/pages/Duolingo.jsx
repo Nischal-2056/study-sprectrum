@@ -10,8 +10,8 @@ const Duolingo = () => {
       <Container fluid style={{ padding: "0px", margin: "0px" }}>
         <section className="duoOverview container-fluid pt-lg-5 ">
           <div className="container pt-5 pt-lg-5 pt-sm-3 mt-lg-5 mt-sm-3 d-flex flex-column">
-            <span style={{ color: "#fea201" }}>
-              <h1 className="fs-35">DUOLINGO : AN OVERVIEW</h1>
+            <span style={{ color: "white" }}>
+              <h1 className="fs-35 ">DUOLINGO : AN OVERVIEW</h1>
             </span>
             <div className=" pt-lg-3 ">
               <p
@@ -33,7 +33,7 @@ const Duolingo = () => {
         <section className="typesofduolingo d-flex  sec-400  align-items-center container-fluid">
           <div className="container">
             <div className="col-lg-12">
-              <h1 className="section-heading  pt-3 fs-35">TYPES OF DUOLINGO</h1>
+              <h1 className="section-heading  color-main pt-3 fs-35">TYPES OF DUOLINGO</h1>
             </div>
             <p
               className="  col-12 pt-lg-3  d-flex  "
@@ -59,7 +59,7 @@ const Duolingo = () => {
         >
           <div className="container">
             <div className="col-12   ">
-              <h1 className="section-heading  pt-3 fs-35">TEST OVERVIEW</h1>
+              <h1 className="section-heading color-main pt-3 fs-35">TEST OVERVIEW</h1>
               <p
                 className="  col-12 pt-4  d-flex text-center "
                 style={{ fontSize: "14px" }}
@@ -75,8 +75,8 @@ const Duolingo = () => {
                   <tr>
                     <th
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        backgroundColor: "#0a2870",
+                        color: "white",
                         padding: "5px",
                       }}
                     >
@@ -84,8 +84,8 @@ const Duolingo = () => {
                     </th>
                     <th
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        backgroundColor: "#0a2870",
+                        color: "white",
                         padding: "5px",
                       }}
                     >
@@ -111,8 +111,8 @@ const Duolingo = () => {
                   <tr>
                     <th
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        backgroundColor: "#0a2870",
+                        color: "white",
                         padding: "5px",
                       }}
                     >
@@ -120,8 +120,8 @@ const Duolingo = () => {
                     </th>
                     <th
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        backgroundColor: "#0a2870",
+                        color: "white",
                         padding: "5px",
                       }}
                     >
@@ -166,7 +166,7 @@ const Duolingo = () => {
         <section className="container-fluid   pt-lg-5 scoringbasisduolingo">
           <div className="container">
             {" "}
-            <h1 className="section-heading d-flex justify-content-center pt-3 fs-35">
+            <h1 className="section-heading d-flex justify-content-center color-main pt-3 fs-35">
               SCORING BASIS IN DUOLINGO
             </h1>
             <p
@@ -184,12 +184,12 @@ const Duolingo = () => {
                   <thead>
                     <tr className="   ">
                       <th
-                        style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                        style={{ backgroundColor: "#0a2870", color: "white" }}
                       >
                         CEFR
                       </th>
                       <th
-                        style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                        style={{ backgroundColor: "#0a2870", color: "white" }}
                       >
                         SCORE SCALE
                       </th>
@@ -220,12 +220,12 @@ const Duolingo = () => {
                   <thead>
                     <tr className="  ">
                       <th
-                        style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                        style={{ backgroundColor: "#0a2870", color: "white" }}
                       >
                         SCALE
                       </th>
                       <th
-                        style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                        style={{ backgroundColor: "#0a2870", color: "white" }}
                       >
                         SCORE
                       </th>
@@ -256,7 +256,7 @@ const Duolingo = () => {
         </section>
         <section className=" container-fluid  mt-lg-4 pt-lg-5">
           <div className=" container pt-4 p-3 ">
-            <h2 className="fs-35" style={{ color: "#0d4a76" }}>
+            <h2 className="fs-35" style={{ color: "#0a2870" }}>
               FAQ
             </h2>
 

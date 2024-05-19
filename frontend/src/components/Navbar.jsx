@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import  { useState, useEffect } from "react";
 import "../styles/navbar.css";
-import logos from "../assets/Penlogo.png";
+import logos from "../assets/studyspectrumlogo.png";
 import { useNavigate, Link } from "react-router-dom";
 
 
@@ -57,12 +57,13 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
               <div
                 style={{
                   backgroundColor: "white",
-                  height: "70px",
-                  width: "70px",
+                  height: "100px",
+                  width: "100px",
                   display: "flex",
                   justifyContent: "center",
+                  borderRadius: "20%",
                   alignItems: "center",
-                  borderRadius: "50%",
+
                   padding: "7px",
                 }}
               >
@@ -70,42 +71,40 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   src={logos}
                   alt="Logo"
                   style={{
-                    marginTop: "10px",
-                    maxWidth: "100%",
-                    maxHeight: "100%",
+                    maxWidth: "110px",
+                    maxHeight: "110px",
                   }}
                 />
               </div>
               <div
-                className="  pt-3 justify-content-center  align-items-center"
+                className="  pt-lg-5 justify-content-center  align-items-center"
                 style={{
                   color: "#fea201",
                   fontFamily: "Impact",
                 }}
               >
                 <p
-                  className=" fs-32  namelogo "
-                  style={{ margin: "0px", padding: "0px" }}
+                  className="   namelogo "
+                  style={{
+                    margin: "0px",
+                    padding: "0px",
+                    fontSize: "24px",
+                    color: "white",
+                  }}
                 >
-                  STUDY<br></br>
-                  <span
-                    className=" fs-20 "
-                    style={{ margin: "0px", padding: "0px" }}
-                  >
-                    SPECTRUM
-                  </span>
+                  USA STUDY SPECTRUM
                 </p>
               </div>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" id="toggle-btn" />
-          <Navbar.Collapse id="navbarScroll" className="mx-lg-5 mx-0">
+          <Navbar.Collapse id="navbarScroll"  style={{paddingRight:"60px"}}className="mx-lg-1 ">
             <Nav
               className="  ms-auto  px-lg-4 px-sm-0 my-2 my-lg-0 "
               //   style={{ maxHeight: "150px" }}
             >
               <Link
-                className="nav-link mx-lg-3 mx-sm-0 color-secondary"
+                className="nav-link mx-lg-1 mx-sm-0 color-secondary"
                 id="nav"
                 to="/"
                 onClick={closeDropdown}
@@ -114,7 +113,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
               </Link>
               <Link
                 id="nav"
-                className={`nav-link mx-lg-3 mx-sm-0 fw-bold ${
+                className={`nav-link mx-lg-1 mx-sm-0 fw-bold ${
                   screenWidth < 1496 && "about-adjust"
                 }`}
                 to="/about"
@@ -122,24 +121,28 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
               >
                 ABOUT US
               </Link>
-              <NavDropdown
+              {/* <NavDropdown
                 className="mx-lg-3 mx-sm-0 fw-bold "
                 title="STUDY ABROAD"
                 id="navbarScrollingDropdown"
 
                 // Hide dropdown on mouse leave
               >
-                <NavDropdown.Item style={{ padding: "unset", width: "100" }}>
-                  <Link
-                    className=" fw-bold  dropdown-item d-flex justify-content-start"
-                    to="/studyusa"
-                    onClick={closeDropdown}
-                  >
-                    <b>STUDY USA</b>
-                  </Link>
-                </NavDropdown.Item>
+                <NavDropdown.Item style={{ padding: "unset", width: "100" }}> */}
+              <Link
+                // className=" fw-bold  dropdown-item d-flex justify-content-start"
+                id="nav"
+                className={`nav-link mx-lg-1 mx-sm-0 fw-bold ${
+                  screenWidth < 1496 && "about-adjust"
+                }`}
+                to="/studyusa"
+                onClick={closeDropdown}
+              >
+                <b>STUDY USA</b>
+              </Link>
+              {/* </NavDropdown.Item> */}
 
-                <NavDropdown.Item style={{ padding: "unset", width: "100" }}>
+              {/* <NavDropdown.Item style={{ padding: "unset", width: "100" }}>
                   <Link
                     className=" fw-bold  dropdown-item d-flex justify-content-start"
                     to="/studycanada"
@@ -159,10 +162,10 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   >
                     STUDY IN UK
                   </Link>
-                </NavDropdown.Item>
-              </NavDropdown>
+                </NavDropdown.Item> */}
+              {/* </NavDropdown> */}
               <NavDropdown
-                className="mx-lg-3 mx-sm-0  fw-bold "
+                className="mx-lg-1 mx-sm-0  fw-bold "
                 title={<span className="dp">TEST PREPARATION</span>}
                 id="navbarScrollingDropdown"
                 // show={dropdownOpen === "testPreparation"}
@@ -213,7 +216,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
               </NavDropdown>
               <Link
                 id="nav"
-                className="nav-link mx-lg-3 mx-sm-0  fw-bold"
+                className="nav-link mx-lg-1 mx-sm-0  fw-bold"
                 to="/contactus"
                 onClick={closeDropdown}
               >
@@ -224,7 +227,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             <Link to="/register">
               {" "}
               <Button
-                className="btn-register"
+                className=""
                 style={{
                   color: "white",
                   backgroundColor: "#C80104",

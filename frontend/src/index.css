@@ -66,18 +66,26 @@ button#dropdown-flags {
 .fs-35 {
   font-size: 35px !important;
   font-family: 'Impact', sans-serif;
+    
 
 }
 
 .namelogo{
   line-height: 20px;
 }
-
+.bg-main{
+   background-color:#0a2870 !important; 
+}
+.color-white{
+  color:white!important;
+}
 /* color */
 .color-main {
   color:#0a2870 !important;
 }
-
+.bg-sec{
+  background-color:#b31942 !important;
+}
 .color-secondary {
   color:#b31942 !important;
 }

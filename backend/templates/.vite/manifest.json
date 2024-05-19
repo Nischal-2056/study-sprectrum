@@ -1,7 +1,7 @@
 {
   "index.html": {
     "assets": [
-      "Penlogo-afHrEkta.png",
+      "studyspectrumlogo-qhKPV6mF.png",
       "h-abt-us-drhjjnL7.png",
       "usa-AM9e6NO1.png",
       "canada-JNT0Xdbi.png",
@@ -41,9 +41,9 @@
       "sample4-GTzlzkcV.jpg"
     ],
     "css": [
-      "index-F5XH5eXP.css"
+      "index-P_hlR5S_.css"
     ],
-    "file": "index-7WhmitpR.js",
+    "file": "index-mcGOZFjP.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -90,10 +90,6 @@
   "src/assets/Jobuk.png": {
     "file": "Jobuk-iTGH5vO0.png",
     "src": "src/assets/Jobuk.png"
-  },
-  "src/assets/Penlogo.png": {
-    "file": "Penlogo-afHrEkta.png",
-    "src": "src/assets/Penlogo.png"
   },
   "src/assets/StudyAborad.png": {
     "file": "StudyAborad-x44OfB2Y.png",
@@ -174,6 +170,10 @@
   "src/assets/studyUK.png": {
     "file": "studyUK-8MLAEn07.png",
     "src": "src/assets/studyUK.png"
+  },
+  "src/assets/studyspectrumlogo.png": {
+    "file": "studyspectrumlogo-qhKPV6mF.png",
+    "src": "src/assets/studyspectrumlogo.png"
   },
   "src/assets/uk.png": {
     "file": "uk--Rg8508U.png",

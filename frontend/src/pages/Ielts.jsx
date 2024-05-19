@@ -23,8 +23,8 @@ const IELTS = () => {const scoringData = [
       >
         <div className=" ieltsbackimage container-fluid pt-lg-5 ">
           <div className="container pt-5 pt-lg-5 mt-lg-5 d-flex flex-column    ">
-            <span style={{ color: "#fea201" }}>
-              <h1 className="fs-35">IELTS : AN OVERVIEW</h1>
+            <span>
+              <h1 className="fs-35 color-white">IELTS : AN OVERVIEW</h1>
             </span>
 
             <div className=" pt-lg-3 ">
@@ -60,7 +60,9 @@ const IELTS = () => {const scoringData = [
         <div className="  pt-lg-5 typeofielts container-fluid ">
           <div className=" container  p-lg-3 ">
             <div className=" row text-center">
-              <h1 className="section-heading  pt-3 fs-35">TYPE OF IELTS</h1>
+              <h1 className="section-heading color-main pt-3 fs-35">
+                TYPE OF IELTS
+              </h1>
               <p
                 className=" px-lg-2 pt-3 "
                 style={{ fontSize: "15px", width: "100%", lineHeight: "25px" }}
@@ -73,15 +75,15 @@ const IELTS = () => {const scoringData = [
             <div className="row pt-4  d-flex justify-content-between">
               <div className="col-md-5 ">
                 <Card
-                  className="p-lg-4"
+                  className="p-lg-4 bg-main"
                   style={{
                     height: "240px",
-                    backgroundColor: " #0d4a76",
+
                     color: "white",
                   }}
                 >
                   <Card.Body className="text-center pt-3 p-lg-2">
-                    <Card.Title style={{ color: "#fea201" }}>
+                    <Card.Title className="color-secondary">
                       IELTS ACADEMIC
                     </Card.Title>
                     <Card.Text
@@ -99,15 +101,15 @@ const IELTS = () => {const scoringData = [
               </div>
               <div className="col-md-5  mt-2 ">
                 <Card
-                  className="p-lg-4"
+                  className="p-lg-4 bg-main"
                   style={{
                     height: "240px",
-                    backgroundColor: " #0d4a76",
+
                     color: "white",
                   }}
                 >
                   <Card.Body className="text-center pt-2">
-                    <Card.Title style={{ color: "#fea201" }}>
+                    <Card.Title className="color-secondary">
                       IELTS GENERAL TRAINING
                     </Card.Title>
                     <Card.Text className="pt-2" style={{ textAlign: "left" }}>
@@ -126,7 +128,9 @@ const IELTS = () => {const scoringData = [
         <div className=" pt-lg-5  container-fluid testoverview ">
           <div className=" container">
             <div className="col-12   text-center">
-              <h1 className="section-heading  pt-3 fs-35">TEST OVERVIEW</h1>
+              <h1 className="section-heading color-main  pt-3 fs-35">
+                TEST OVERVIEW
+              </h1>
               <p
                 className="  col-12 pt-4  d-flex text-center "
                 style={{ fontSize: "15px" }}
@@ -147,25 +151,25 @@ const IELTS = () => {const scoringData = [
                     <tr>
                       <th
                         style={{
-                          backgroundColor: "#0d4a76",
-                          color: "#fea201",
+                          backgroundColor: "#0a2870",
+                          color: "#b31942",
                           padding: "4px",
                         }}
                       >
                         Listening (Acamdemic & General)
                       </th>
                       <th
-                        style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                        style={{ backgroundColor: "#0a2870", color: "#b31942" }}
                       >
                         Reading(Academic)
                       </th>
                       <th
-                        style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                        style={{ backgroundColor: "#0a2870", color: "#b31942" }}
                       >
                         Writing (Academic)
                       </th>
                       <th
-                        style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                        style={{ backgroundColor: "#0a2870", color: "#b31942" }}
                       >
                         Speaking (Acamdemic & General)
                       </th>
@@ -192,8 +196,8 @@ const IELTS = () => {const scoringData = [
                           <td
                             className="p-lg-2 "
                             style={{
-                              backgroundColor: "#0d4a76",
-                              color: "#fea201",
+                              backgroundColor: "#0a2870",
+                              color: "#b31942",
                             }}
                           >
                             Speaking (Acamdemic & General)
@@ -214,8 +218,8 @@ const IELTS = () => {const scoringData = [
                           <td
                             className="p-lg-2 "
                             style={{
-                              backgroundColor: "#0d4a76",
-                              color: "#fea201",
+                              backgroundColor: "#0a2870",
+                              color: "#b31942",
                             }}
                           >
                             Speaking (Acamdemic & General)
@@ -255,7 +259,7 @@ const IELTS = () => {const scoringData = [
         <div className="  pt-lg-5  container-fluid  totaltest  ">
           <div className="  pt-lg-3 container   ">
             <div className="col-12   ">
-              <h1 className="section-heading  pt-3 fs-35">
+              <h1 className="section-heading color-main pt-3 fs-35">
                 IELTS TOTAL TEST DURATION
               </h1>
             </div>
@@ -276,7 +280,7 @@ const IELTS = () => {const scoringData = [
         <div className="  pt-lg-5 container-fluid   scoringbasisielts ">
           <div className=" container text-center p-lg-3">
             <div className="col-12   ">
-              <h1 className="section-heading  pt-3 fs-35">
+              <h1 className="section-heading color-main pt-3 fs-35">
                 SCORING BASIS IN IELTS
               </h1>
             </div>
@@ -291,7 +295,7 @@ const IELTS = () => {const scoringData = [
                 <tr className="text-center">
                   <th
                     colSpan={2}
-                    style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                    style={{ backgroundColor: "#0a2870", color: "#b31942" }}
                   >
                     SCORING BASIS IN IELTS
                   </th>
@@ -311,9 +315,7 @@ const IELTS = () => {const scoringData = [
         </div>
         <div className="  pt-lg-5   container-fluid    faq ">
           <div className=" container pt-4 p-3">
-            <h2 className="fs-35" style={{ color: "#0d4a76" }}>
-              FAQ
-            </h2>
+            <h2 className="fs-35 color-main">FAQ</h2>
 
             <FAQIELTS />
           </div>

@@ -18,7 +18,7 @@ const Studyusa = () => {
       <div className="container-fluid" style={{ padding: "0px" }}>
         <div className=" bgimage studyusa container-fluid pt-lg-5 mt-sm-5  ">
           <div className="   pt-2 mt-lg-5 pt-lg-5 container  ">
-            <span style={{ color: "#fea201" }}>
+            <span style={{ color: "white" }}>
               <h1 className="fs-32">STUDY IN USA</h1>
             </span>
             <div
@@ -51,7 +51,7 @@ const Studyusa = () => {
         <div className="  why-usa pt-2  container-fluid pt-lg-5 ">
           <div className=" container-fluid  px-lg-4  ">
             <div className="   text-center">
-              <h1 className="section-heading fs-35">WHY USA ?</h1>
+              <h1 className="section-heading fs-35 color-main">WHY USA ?</h1>
             </div>
             <div className="d-flex row mt-lg-5  position-relative ">
               <div className=" whyusa_description  row ">
@@ -243,7 +243,7 @@ const Studyusa = () => {
               <div className="col-md-4   ">
                 <Card
                   className="mb-2 text-center "
-                  style={{ backgroundColor: "#0d4a76" }}
+                  style={{ backgroundColor: "  #0a2870 " }}
                 >
                   <Card.Text>
                     <p
@@ -269,7 +269,7 @@ const Studyusa = () => {
                   </Card.Header>
                   <Card.Header className="bg-white ">
                     <p>
-                      <b style={{ color: " #c80104" }}>Application Deadline</b>
+                      <b style={{ color: " #b31942" }}>Application Deadline</b>
                     </p>
                     <p>December/January</p>
                   </Card.Header>
@@ -278,7 +278,7 @@ const Studyusa = () => {
               <div className="col-md-4  ">
                 <Card
                   className="mb-2 text-center "
-                  style={{ backgroundColor: "#0d4a76" }}
+                  style={{ backgroundColor: "#0a2870" }}
                 >
                   <Card.Text>
                     <p
@@ -303,7 +303,7 @@ const Studyusa = () => {
                   </Card.Header>
                   <Card.Header className="bg-white ">
                     <p>
-                      <b style={{ color: " #c80104" }}>Application Deadline</b>
+                      <b style={{ color: "#b31942" }}>Application Deadline</b>
                     </p>
                     <p>May/June</p>
                   </Card.Header>
@@ -312,7 +312,7 @@ const Studyusa = () => {
               <div className="col-md-4   ">
                 <Card
                   className="mb-2 text-center "
-                  style={{ backgroundColor: "#0d4a76" }}
+                  style={{ backgroundColor: " #0a2870" }}
                 >
                   <Card.Text>
                     <p
@@ -338,7 +338,7 @@ const Studyusa = () => {
                   </Card.Header>
                   <Card.Header className="bg-white ">
                     <p>
-                      <b style={{ color: " #c80104" }}>Application Deadline</b>
+                      <b style={{ color: " #b31942" }}>Application Deadline</b>
                     </p>
                     <p>September/October</p>
                   </Card.Header>
@@ -355,9 +355,8 @@ const Studyusa = () => {
               </h1>
             </div>
             <Card
-              className="mt-lg-5 p-lg-4  align-items-center justify-content-center"
+              className="mt-lg-5 p-lg-4 bg-main  align-items-center justify-content-center"
               style={{
-                backgroundColor: "#0d4a76",
                 color: "white",
               }}
             >
@@ -376,7 +375,10 @@ const Studyusa = () => {
                   >
                     Based on the institution and the courses the student
                     chooses, universities in the United States typically accept{" "}
-                    <span style={{ color: "#fea201", fontSize: "17px" }}>
+                    <span
+                      className="color-secondary"
+                      style={{ fontSize: "17px" }}
+                    >
                       <b>2.6 to 3.0 </b>
                     </span>
                     on the scale of 4.0 GPA.
@@ -412,21 +414,9 @@ const Studyusa = () => {
               >
                 <thead>
                   <tr>
-                    <th
-                      style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
-                    >
-                      TEST
-                    </th>
-                    <th
-                      style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
-                    >
-                      OVERALL SCORE
-                    </th>
-                    <th
-                      style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
-                    >
-                      EACH BAND
-                    </th>
+                    <th className="bg-main  color-white">TEST</th>
+                    <th className="bg-main  color-white">OVERALL SCORE</th>
+                    <th className="bg-main  color-white">EACH BAND</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -475,15 +465,15 @@ const Studyusa = () => {
             <div className="row pt-4 d-flex justify-content-between">
               <div className="col-md-5 mt-lg-3">
                 <Card
-                  className="p-lg-4"
+                  className="p-lg-4 bg-main"
                   style={{
                     height: "260px",
-                    backgroundColor: " #0d4a76",
+
                     color: "white",
                   }}
                 >
                   <Card.Body className="text-center pt-2">
-                    <Card.Title style={{ color: "#fea201" }}>
+                    <Card.Title className="color-secondary">
                       Merit-Based Scholarship
                     </Card.Title>
                     <Card.Text
@@ -502,15 +492,15 @@ const Studyusa = () => {
               </div>
               <div className="col-md-5  mt-3 ">
                 <Card
-                  className="p-lg-4"
+                  className="p-lg-4 bg-main"
                   style={{
                     height: "260px",
-                    backgroundColor: " #0d4a76",
+
                     color: "white",
                   }}
                 >
                   <Card.Body className="text-center pt-2">
-                    <Card.Title style={{ color: "#fea201" }}>
+                    <Card.Title className="color-secondary">
                       Need Based Scholarship
                     </Card.Title>
                     <Card.Text
@@ -533,7 +523,7 @@ const Studyusa = () => {
         <div className="      container-fluid pt-lg-5 pt-sm-3 pt-2 visausa ">
           <div className=" container ">
             <div className="  text-center">
-              <h1 className="section-heading  pt-3 fs-32">
+              <h1 className="section-heading  color-main pt-3 fs-32">
                 VISA APPLICATION PROCESS
               </h1>
             </div>
@@ -573,7 +563,7 @@ const Studyusa = () => {
             <div className="  text-center">
               <h1
                 className="section-heading  pt-3 fs-35"
-                style={{ color: "#fea201" }}
+                style={{ color: "white" }}
               >
                 JOB OPPORTUNITIES IN USA
               </h1>
@@ -588,14 +578,14 @@ const Studyusa = () => {
                     color: "white",
                   }}
                 >
-                  F-1 Students with active SEVIS status can apply for
-                  on-campus or off-campus jobs that have a direct affiliation
-                  with the academic institution. Students can contact the
-                  Designated School Official (DSO) to gain an approval letter
-                  from the employer so that they can apply for the Social
-                  Security Number (SSN). Typically, students can apply for jobs
-                  like receptionist, teaching assistant, library assistant,
-                  barista, and research assistant.
+                  F-1 Students with active SEVIS status can apply for on-campus
+                  or off-campus jobs that have a direct affiliation with the
+                  academic institution. Students can contact the Designated
+                  School Official (DSO) to gain an approval letter from the
+                  employer so that they can apply for the Social Security Number
+                  (SSN). Typically, students can apply for jobs like
+                  receptionist, teaching assistant, library assistant, barista,
+                  and research assistant.
                   <br />
                   <p
                     className="pt-lg-3 pt-sm-0"
@@ -622,7 +612,7 @@ const Studyusa = () => {
           <div className=" container pt-4  ">
             <div className="row  text-center"></div>
 
-            <h2 className="fs-35" style={{ color: "#0d4a76" }}>
+            <h2 className="fs-35  color-main" style={{ color: "#0d4a76" }}>
               FAQ
             </h2>
 

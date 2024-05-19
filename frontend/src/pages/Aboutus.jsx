@@ -13,7 +13,7 @@ const Aboutus = () => {
       <div className="backgroundimage aboutus container-fluid  pt-lg-5  mt-lg-5 ">
         <div className="container pt-lg-5 mt-lg-5 ">
           <span>
-            <h1 className="fs-35 color-secondary">ABOUT US</h1>
+            <h1 className="fs-35 " style={{color:"white"}}>ABOUT US</h1>
           </span>
           <div className=" pt-lg-3 ">
             <p

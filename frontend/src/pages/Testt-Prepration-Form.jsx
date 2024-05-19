@@ -298,12 +298,13 @@ export default function TestPreparationForm() {
                     </Col> */}
                     <div style={{ width: "100%", textAlign: "center" }}>
                       <Button
+                      className="bg-sec"
                         style={{
                           width: "220px",
                           marginTop: "10px",
                           padding: "5px 0 20px 0",
                           height: "45px",
-                          backgroundColor: "#C80104",
+                          
                           fontSize: "24px",
                           border: "none",
                         }}

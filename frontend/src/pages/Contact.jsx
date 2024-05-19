@@ -95,15 +95,15 @@ useEffect(() => {
       {" "}
       <div className="contactbackground  container-fluid pt-lg-5  ">
         <div className="  mt-lg-5 pt-lg-5 contactdescription container  ">
-          <span className="fs-35" style={{ color: "#fea201" }}>
+          <span className="fs-35" style={{ color: "white" }}>
             <h1>CONTACT US</h1>
           </span>
 
           <div className=" pt-lg-3 ">
             <p style={{ fontSize: "15px", width: "100%", textAlign: "start" }}>
-              "Reach out to us at Presidential Education Network, located in
-              Santinagar, Kathmandu. We really appreciate your questions, ideas,
-              and comments as we work to create a better future. Together, let's
+              "Reach out to us at USA Study Spectrum, located in Baltimore,
+              Maryland, . We really appreciate your questions, ideas, and
+              comments as we work to create a better future. Together, let's
               establish a connection and set off on a path toward superior
               education."
             </p>
@@ -151,7 +151,7 @@ useEffect(() => {
                     }}
                   >
                     <small className="text-muted">
-                      Presidentialedu@gmail.com
+                      info.studyspectrum@gmail.com
                     </small>
                   </Card.Footer>
                 </Card>
@@ -188,7 +188,7 @@ useEffect(() => {
                       backgroundColor: "white",
                     }}
                   >
-                    <small className="text-muted">015904605</small>
+                    <small className="text-muted">+1 (443) 799-6822</small>
                   </Card.Footer>
                 </Card>
               </div>
@@ -226,7 +226,7 @@ useEffect(() => {
                   >
                     <small className="text-muted">
                       {" "}
-                      Shantinagar, Kathmandu, Nepal
+                      Baltimore, Maryland, USA
                     </small>
                   </Card.Footer>
                 </Card>
@@ -321,12 +321,13 @@ useEffect(() => {
                         </Col>
                         <div style={{ width: "100%", textAlign: "center" }}>
                           <Button
+                          className="bg-sec"
                             style={{
                               width: "220px",
                               marginTop: "64px",
                               padding: "5px 0 20px 0",
                               height: "45px",
-                              backgroundColor: "#C80104",
+                             
                               fontSize: "24px",
                               border: "none",
                             }}

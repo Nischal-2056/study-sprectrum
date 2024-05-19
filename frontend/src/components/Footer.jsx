@@ -1,6 +1,6 @@
 
 import "../styles/footer.css";
-import logos from "../assets/Penlogo.png";
+import logos from "../assets/studyspectrumlogo.png";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdOutlineCall } from "react-icons/md";
 import { FaRegEnvelopeOpen } from "react-icons/fa6";
@@ -10,15 +10,15 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <footer className="container-fluid">
-        <div className="row content pt-2 ">
+      <footer className="container-fluid bg-main">
+        <div className="row content pt-2 bg-main ">
           <div className="col-md-6 ">
             <div className="mb-2">
               <div
                 style={{
                   backgroundColor: "white",
-                  height: "70px",
-                  width: "70px",
+                  height: "100px",
+                  width: "100px",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
@@ -30,32 +30,30 @@ const Footer = () => {
                   src={logos}
                   alt="Logo"
                   style={{
-                    maxWidth: "100%",
-                    maxHeight: "100%",
-                    marginTop: "10px   ",
+                    maxWidth: "100px",
+                    maxHeight: "100px",
                   }}
                 />
               </div>
             </div>
             <div>
-              <h5>Presidential Education Network</h5>
+              <h5>USA STUDY SPECTRUM</h5>
               <div className="contact-info">
                 <p>
-                  <IoLocationSharp /> Shanitnagar (Next to Aloknagar Gate),
-                  Kathmandu, Nepal
+                  <IoLocationSharp /> Baltimore, Maryland, USA
                 </p>
                 <p>
-                  <MdOutlineCall /> 010-5904605
+                  <MdOutlineCall /> +1 (443) 799-6822
                 </p>
                 <p>
-                  <FaRegEnvelopeOpen /> Presedentialedu@gmail.com
+                  <FaRegEnvelopeOpen /> info.studyspectrum@gmail.com
                 </p>
               </div>
             </div>
-            <div className="mt-lg-5 mt-sm-0">
+            {/* <div className="mt-lg-5 mt-sm-0">
               <p>Office Hours</p>
               <p>Sunday-Friday: 9 AM - 5 PM</p>
-            </div>
+            </div> */}
           </div>
           <div className="col-md-6 mt-lg-5 mt-sm-0">
             <div className="row ">
@@ -79,25 +77,21 @@ const Footer = () => {
               </div>
               <div className="col-md-4">
                 <ul className="p-0 m-0">
-                  <li>
+                  {/* <li>
                     <Link to="/studycanada" className="nav-link  mx-sm-0">
                       Study in Canada
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link to="/studyUk" className="nav-link  mx-sm-0">
                       Study in UK
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/ielts" className="nav-link  mx-sm-0">
                       IELTS
                     </Link>
                   </li>
-                </ul>
-              </div>
-              <div className="col-md-4 ">
-                <ul className="p-0 m-0 ">
                   <li>
                     <Link to="/pte" className="nav-link  mx-sm-0">
                       PTE
@@ -105,9 +99,13 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link to="/contactus" className="nav-link  mx-sm-0">
-                      Contact US
+                      Contact Us
                     </Link>
                   </li>
+                </ul>
+              </div>
+              <div className="col-md-4 ">
+                <ul className="p-0 m-0 ">
                   <li>
                     <Link to="/register" className="nav-link  mx-sm-0">
                       Register
@@ -122,7 +120,7 @@ const Footer = () => {
                 <span className="px-lg-2">
                   <a
                     style={{ color: "white" }}
-                     href="https://www.facebook.com/presidentialedunet"
+                    href="https://www.facebook.com/presidentialedunet"
                   >
                     <FaFacebook style={{ height: "40px", width: "40px" }} />
                   </a>

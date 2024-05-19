@@ -24,12 +24,12 @@ const Home = () => {
           <div className="h-abt-us-description">
             <div className="h-abt-header color-main  fs-35">ABOUT US</div>
             <div className="h-abt-content">
-              Presidential Education Network is an educational consulting firm
+            USA Study Spectrum is an educational consulting firm
               that specializes in offering top-notch academic advice services to
-              students considering studying in countries like the USA, Canada,
-              and the UK. With years of experience and a staff of qualified
-              advisors, Presidential provides excellent guidance services for
-              studying abroad. The presidential mission is to mentor our
+              students considering studying  the USA.
+              With years of experience and a staff of qualified
+              advisors,we provide excellent guidance services for
+              studying in US. Our mission is to mentor our
               students from the start and accompany them every step of the way
               as they pursue their academic goals.
             </div>

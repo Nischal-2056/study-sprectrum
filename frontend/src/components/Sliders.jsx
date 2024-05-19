@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/sliders.css";
-import logo from "../assets/Penlogo.png";
+import logo from "../assets/studyspectrumlogo.png";
 import { useState, useEffect } from "react";
 import { getTestimonial, getSuccessstores } from "../axios.service.js";
 import { FaStar, FaStarHalf } from "react-icons/fa";
@@ -146,7 +146,7 @@ fetchSucccesstories();
                         >
                           Congratulations
                         </span>
-                        <img src={logo} style={{ height: "40px" }} />
+                        <img src={logo} style={{ height: "90px" }} />
                       </div>
                       <div className="  d-flex flex-column justify-content-center align-items-center">
                         <div

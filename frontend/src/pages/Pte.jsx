@@ -31,8 +31,8 @@ const Pte = () => {
       <Container fluid style={{ padding: "0px", margin: "0px" }}>
         <section className="pteOverview container-fluid pt-lg-5 ">
           <div className="container pt-lg-5 pt-5 pt-sm-3 mt-lg-5 mt-sm-3 d-flex flex-column">
-            <span style={{ color: "#fea201" }}>
-              <h1 className="fs-35">PTE : AN OVERVIEW</h1>
+            <span>
+              <h1 className="fs-35 color-white">PTE : AN OVERVIEW</h1>
             </span>
             <div className=" pt-lg-3 ">
               <p
@@ -63,7 +63,9 @@ const Pte = () => {
         <section className="container-fluid pt-lg-5 pt-2 ">
           <div className="container">
             <div className="col-lg-12">
-              <h1 className="section-heading  pt-lg-3 fs-35">TYPES OF PTE</h1>
+              <h1 className="section-heading color-main pt-lg-3 fs-35">
+                TYPES OF PTE
+              </h1>
             </div>
             <p>
               Principally, there are three types of PTE certifications. They are
@@ -72,15 +74,15 @@ const Pte = () => {
             <div className="row pt-lg-4 pt-2 d-flex justify-content-between">
               <div className="col-md-4 p-2">
                 <Card
-                  className="p-lg-4"
+              
+                  className="bg-main p-lg-4"
                   style={{
-                    backgroundColor: " #0d4a76",
                     color: "white",
                     height: "300px",
                   }}
                 >
                   <Card.Body className=" pt-3">
-                    <Card.Title style={{ color: "#fea201" }}>
+                    <Card.Title style={{ color: "white" }}>
                       PTE Academic
                     </Card.Title>
                     <Card.Text
@@ -98,16 +100,16 @@ const Pte = () => {
               </div>
               <div className="col-md-4 p-2">
                 <Card
-                  className="p-lg-4"
+                  className="p-lg-4 bg-main"
                   style={{
-                    backgroundColor: " #0d4a76",
+                    
                     color: "white",
 
                     height: "300px",
                   }}
                 >
-                  <Card.Body className=" pt-3">
-                    <Card.Title style={{ color: "#fea201" }}>
+                  <Card.Body className=" pt-3 bg-main">
+                    <Card.Title style={{ color: "white" }}>
                       PTE General
                     </Card.Title>
                     <Card.Text
@@ -127,16 +129,16 @@ const Pte = () => {
               </div>
               <div className="col-md-4 p-2">
                 <Card
-                  className="p-lg-4"
+                  className="p-lg-4 bg-main"
                   style={{
-                    backgroundColor: " #0d4a76",
+                   
                     color: "white",
 
                     height: "300px",
                   }}
                 >
                   <Card.Body className=" pt-2">
-                    <Card.Title style={{ color: "#fea201" }}>
+                    <Card.Title style={{ color: "white" }}>
                       PTE Young Learners
                     </Card.Title>
                     <Card.Text
@@ -164,7 +166,7 @@ const Pte = () => {
         >
           <div className="container">
             {" "}
-            <h1 className="section-heading d-flex justify-content-center pt-3 fs-35">
+            <h1 className="section-heading d-flex justify-content-center color-main pt-3 fs-35">
               TEST OVERVIEW
             </h1>
             <p
@@ -180,11 +182,11 @@ const Pte = () => {
                 <Table bordered className="table-responsive " responsive="sm">
                   <tr className=" border  text-center ">
                     <th
-                      className="p-2 border"
+                      className="p-2 border bg-main"
                       colSpan={12}
                       style={{
-                        backgroundColor: "white",
-                        color: "#fea201",
+                       
+                        color: "white",
                         border: "2px solid black",
                       }}
                     >
@@ -193,26 +195,26 @@ const Pte = () => {
                   </tr>
                   <tr className="">
                     <th
-                      className="p-2"
+                      className="p-2 bg-main"
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        
+                        color: "white",
                       }}
                     >
                       WRITING & SPEAKING
                     </th>
                     <th
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        backgroundColor: "#0a2870",
+                        color: "white",
                       }}
                     >
                       READING
                     </th>
                     <th
                       style={{
-                        backgroundColor: "#0d4a76",
-                        color: "#fea201",
+                        backgroundColor: "#0a2870",
+                        color: "white",
                       }}
                     >
                       Listening
@@ -278,7 +280,7 @@ const Pte = () => {
                 <tr className="text-center">
                   <th
                     colSpan={2}
-                    style={{ backgroundColor: "#0d4a76", color: "#fea201" }}
+                    style={{ backgroundColor: "#0a2870", color: "white" }}
                   >
                     SCORING BASIS IN PTE
                   </th>
@@ -298,7 +300,7 @@ const Pte = () => {
         </section>
         <section className=" container-fluid  mt-lg-4 pt-lg-5">
           <div className=" container pt-4 p-3 ">
-            <h2 className="fs-35" style={{ color: "#0d4a76" }}>
+            <h2 className="fs-35" style={{ color: "#0a2870" }}>
               FAQ
             </h2>
 
