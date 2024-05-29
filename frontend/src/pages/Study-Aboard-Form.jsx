@@ -8,7 +8,7 @@ import Form from "react-bootstrap/Form";
 import Dropdown from "react-bootstrap/Dropdown";
 import { useState, useEffect } from "react";
 import "../styles/studyaboardform.css"
-import { studyaboardform } from "../axios.service";
+// import { studyaboardform } from "../axios.service";
 import Model from "../components/Model";
 export default function StudyAboardForm() {
 
@@ -81,84 +81,84 @@ setFormerror(validate(data));
 console.log(formerror);
 setSubmit(true);}
 
- useEffect(() => {
-   console.log("hello4");
-if (Object.keys(formerror).length === 0 && isSubmit) {
-  const submitForm = async () => {
-    try {
-      // Filter out empty values from language proficiency
-      const filteredLanguageProficiency = Object.keys(
-        language_profiency
-      ).reduce((acc, exam) => {
-        const filledSkills = Object.keys(language_profiency[exam]).reduce(
-          (innerAcc, skill) => {
-            if (language_profiency[exam][skill] !== "") {
-              innerAcc[skill] = language_profiency[exam][skill];
-            }
-            return innerAcc;
-          },
-          {}
-        );
-        if (Object.keys(filledSkills).length > 0) {
-          acc[exam] = filledSkills;
-        }
-        return acc;
-      }, {});
+//  useEffect(() => {
+//    console.log("hello4");
+// if (Object.keys(formerror).length === 0 && isSubmit) {
+//   const submitForm = async () => {
+//     try {
+//       // Filter out empty values from language proficiency
+//       const filteredLanguageProficiency = Object.keys(
+//         language_profiency
+//       ).reduce((acc, exam) => {
+//         const filledSkills = Object.keys(language_profiency[exam]).reduce(
+//           (innerAcc, skill) => {
+//             if (language_profiency[exam][skill] !== "") {
+//               innerAcc[skill] = language_profiency[exam][skill];
+//             }
+//             return innerAcc;
+//           },
+//           {}
+//         );
+//         if (Object.keys(filledSkills).length > 0) {
+//           acc[exam] = filledSkills;
+//         }
+//         return acc;
+//       }, {});
 
-      const response = await studyaboardform("contact/study-abroad/", {
-        ...data,
-        language_profiency: filteredLanguageProficiency,
-      });
-      console.log(response);
-      console.log("Form submitted successfully");
-   setShowModal(true);
-      // Assuming you have a function to reset form data, replace setFormData with that function
-      setFormData({
-        full_name: "",
-        address: "",
-        contact_number: "",
-        passed_year: "",
-        gpa_percentage: "",
-        faculty: "",
-        desired_country: "",
-        email: "",
-        desired_course: "",
-      });
-      setlanguageScore({
-        itels: {
-          listening: "",
-          speaking: "",
-          reading: "",
-          writing: "",
-        },
-        tofel: {
-          listening: "",
-          speaking: "",
-          reading: "",
-          writing: "",
-        },
-        pte: {
-          listening: "",
-          speaking: "",
-          reading: "",
-          writing: "",
-        },
-        duolingo: {
-          listening: "",
-          speaking: "",
-          reading: "",
-          writing: "",
-        },
-      });
-    } catch (error) {
-      console.error("Error submitting form:", error);
-    }
-  };
+//   //     const response = await studyaboardform("contact/study-abroad/", {
+//   //       ...data,
+//   //       language_profiency: filteredLanguageProficiency,
+//   //     });
+//   //     console.log(response);
+//   //     console.log("Form submitted successfully");
+//   //  setShowModal(true);
+//   //     // Assuming you have a function to reset form data, replace setFormData with that function
+//   //     setFormData({
+//   //       full_name: "",
+//   //       address: "",
+//   //       contact_number: "",
+//   //       passed_year: "",
+//   //       gpa_percentage: "",
+//   //       faculty: "",
+//   //       desired_country: "",
+//   //       email: "",
+//   //       desired_course: "",
+//   //     });
+//   //     setlanguageScore({
+//   //       itels: {
+//   //         listening: "",
+//   //         speaking: "",
+//   //         reading: "",
+//   //         writing: "",
+//   //       },
+//   //       tofel: {
+//   //         listening: "",
+//   //         speaking: "",
+//   //         reading: "",
+//   //         writing: "",
+//   //       },
+//   //       pte: {
+//   //         listening: "",
+//   //         speaking: "",
+//   //         reading: "",
+//   //         writing: "",
+//   //       },
+//   //       duolingo: {
+//   //         listening: "",
+//   //         speaking: "",
+//   //         reading: "",
+//   //         writing: "",
+//   //       },
+//   //     });
+//   //   } catch (error) {
+//       console.error("Error submitting form:", error);
+//     }
+//   };
 
-  // Call the inner asynchronous function
-  submitForm();
-}
- }, [formerror, isSubmit]);
+//   // Call the inner asynchronous function
+//   submitForm();
+// }
+//  }, [formerror, isSubmit]);
 
    const validate = (values) => {
      console.log("hello3")

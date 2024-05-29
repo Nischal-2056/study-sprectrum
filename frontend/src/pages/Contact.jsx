@@ -238,13 +238,13 @@ useEffect(() => {
       <div className="container-fluid pt-4 pt-lg-5">
         <div className="container">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.81217876358193!2d85.34245883574064!3d27.686553735780734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191e581ce6cb%3A0xf6315c3532c7c505!2sInfoTechs%20Nepal!5e0!3m2!1sen!2snp!4v1706155736878!5m2!1sen!2snp"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98821.04166971885!2d-76.70289711047451!3d39.284677361436806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2sBaltimore%2C%20MD%2C%20USA!5e0!3m2!1sen!2snp!4v1716965343935!5m2!1sen!2snp"
             width="100%"
             height="400"
             allowFullScreen=""
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+            referrerPolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
       <div className="container-fluid  pt-4 pt-lg-5 ">

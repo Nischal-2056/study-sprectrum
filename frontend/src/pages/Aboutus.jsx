@@ -13,7 +13,9 @@ const Aboutus = () => {
       <div className="backgroundimage aboutus container-fluid  pt-lg-5  mt-lg-5 ">
         <div className="container pt-lg-5 mt-lg-5 ">
           <span>
-            <h1 className="fs-35 " style={{color:"white"}}>ABOUT US</h1>
+            <h1 className="fs-35 " style={{ color: "white" }}>
+              ABOUT US
+            </h1>
           </span>
           <div className=" pt-lg-3 ">
             <p
@@ -23,14 +25,13 @@ const Aboutus = () => {
                 color: "white",
               }}
             >
-              Presidential Education Network is an educational consulting firm
-              that specializes in offering top-notch academic advice services to
-              students considering studying in countries like the USA, Canada
-              and UK. With years of experience and a staff of qualified
-              advisors, Presidential provides excellent guidance services for
-              studying abroad. The presidential mission is to mentor our
-              students from the start and accompany them on every step of the
-              way as they pursue their academic goals.
+              USA Study Spectrum is an educational consulting firm that
+              specializes in offering top-notch academic advice services to
+              students considering studying the USA With years of experience and
+              a staff of qualified advisors, Presidential provides excellent
+              guidance services for studying abroad. The presidential mission is
+              to mentor our students from the start and accompany them on every
+              step of the way as they pursue their academic goals.
             </p>
           </div>
         </div>
@@ -46,9 +47,7 @@ const Aboutus = () => {
                 style={{ borderRadius: "20px" }}
               >
                 <div className="cardheader  vision position-absolute">
-                  <h2 className="cardtitle fs-35 color-main " >
-                    OUR VISION
-                  </h2>
+                  <h2 className="cardtitle fs-35 color-main ">OUR VISION</h2>
                 </div>
                 <Card.Text className="p-lg-4  fs-14 pt-3 pt-sm-3 p-2">
                   Empowering individuals through personalized education
@@ -72,9 +71,7 @@ const Aboutus = () => {
             style={{ borderRadius: "20px", gap: "10px" }}
           >
             <div className="cardheader  position-absolute">
-              <h2 className="cardtitle fs-35 color-main" >
-                OUR SERVICES
-              </h2>
+              <h2 className="cardtitle fs-35 color-main">OUR SERVICES</h2>
             </div>
             <div className="pt-lg-5 servicedescription d-flex pt-2 flex-column">
               <div className=" col-sm-12 col-lg-12 p-lg-4  ">
@@ -135,9 +132,7 @@ const Aboutus = () => {
         <div className="container">
           <div className="  row d-flex  justify-content-center align-items-center">
             <div className="col-md-8 col-sm-12">
-              <h2 className="fs-35 color-main" >
-                MESSAGE FROM THE CEO
-              </h2>
+              <h2 className="fs-35 color-main">MESSAGE FROM THE CEO</h2>
               <p style={{ lineHeight: "25px", fontSize: "15px" }}>
                 Dear Presidential Family, I trust this message finds you well
                 and filled with the same enthusiasm for education that has been

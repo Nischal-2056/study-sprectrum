@@ -54,11 +54,11 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
               className="d-flex   justify-content-between align-item-center "
               style={{ gap: "15px" }}
             >
-              <div
+              <di
                 style={{
                   backgroundColor: "white",
-                  height: "100px",
-                  width: "100px",
+                  height: "90px",
+                  width: "90px",
                   display: "flex",
                   justifyContent: "center",
                   borderRadius: "20%",
@@ -71,13 +71,13 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   src={logos}
                   alt="Logo"
                   style={{
-                    maxWidth: "110px",
-                    maxHeight: "110px",
+                    maxWidth: "90px",
+                    maxHeight: "90px",
                   }}
                 />
-              </div>
+              </di>
               <div
-                className="  pt-lg-5 justify-content-center  align-items-center"
+                className="  pt-lg-4 justify-content-center  align-items-center"
                 style={{
                   color: "#fea201",
                   fontFamily: "Impact",
@@ -88,11 +88,12 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   style={{
                     margin: "0px",
                     padding: "0px",
-                    fontSize: "24px",
+                    fontSize: "34px",
                     color: "white",
+                    lineHeight:"30px"
                   }}
                 >
-                  USA STUDY SPECTRUM
+                  USA STUDY <br></br>SPECTRUM
                 </p>
               </div>
             </div>

@@ -120,7 +120,7 @@ const Footer = () => {
                 <span className="px-lg-2">
                   <a
                     style={{ color: "white" }}
-                    href="https://www.facebook.com/presidentialedunet"
+                    href="https://www.facebook.com/profile.php?id=61558632981092" target="_blank"
                   >
                     <FaFacebook style={{ height: "40px", width: "40px" }} />
                   </a>
