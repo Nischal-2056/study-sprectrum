@@ -3,9 +3,16 @@
     "assets": [
       "studyspectrumlogo-qhKPV6mF.png",
       "h-abt-us-drhjjnL7.png",
-      "usa-AM9e6NO1.png",
-      "canada-JNT0Xdbi.png",
-      "uk--Rg8508U.png",
+      "alabama-dB00jPu2.jpg",
+      "calif-MAEdYWHS.jpg",
+      "colorado-NImFkyAl.jpg",
+      "massachets-JoDgrzBa.jpg",
+      "michigan-p-7oSsxn.jpg",
+      "Misouri-AhBsKtfe.jpg",
+      "North-carloina-Zw7BivTY.jpg",
+      "Pensylvania-8-3DOYQY.jpg",
+      "texas-jk1aEbp_.jpg",
+      "washington-yMdqb9Jn.jpg",
       "talkwithconselor-zRJZX8co.png",
       "Testpreparationclass-fRkw7oWU.png",
       "Applytoinstitution-yAysj8Zq.png",
@@ -24,8 +31,6 @@
       "vision-E-HNKQi_.png",
       "messagenow-EgJPX_hF.png",
       "strengthbg-hZqWIW6P.png",
-      "ajax-loader-XJzBMpIy.gif",
-      "slick-Zcw5u4Ni.svg",
       "Ieltsduration-wKq7XZyD.jpg",
       "Ieltsoverview-Td-PYPvw.png",
       "USA-Gs1ZYplb.jpg",
@@ -41,19 +46,11 @@
       "sample4-GTzlzkcV.jpg"
     ],
     "css": [
-      "index-P_hlR5S_.css"
+      "index--WAMiloQ.css"
     ],
-    "file": "index-mcGOZFjP.js",
+    "file": "index-ZPlNUUgT.js",
     "isEntry": true,
     "src": "index.html"
-  },
-  "node_modules/slick-carousel/slick/ajax-loader.gif": {
-    "file": "ajax-loader-XJzBMpIy.gif",
-    "src": "node_modules/slick-carousel/slick/ajax-loader.gif"
-  },
-  "node_modules/slick-carousel/slick/fonts/slick.svg": {
-    "file": "slick-Zcw5u4Ni.svg",
-    "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "src/assets/Aboutus.png": {
     "file": "Aboutus-qa-tQqtn.png",
@@ -111,13 +108,49 @@
     "file": "academic-K4O1obdc.png",
     "src": "src/assets/academic.png"
   },
-  "src/assets/canada.png": {
-    "file": "canada-JNT0Xdbi.png",
-    "src": "src/assets/canada.png"
-  },
   "src/assets/canadaoverview.png": {
     "file": "canadaoverview-Rf-_3KTh.png",
     "src": "src/assets/canadaoverview.png"
+  },
+  "src/assets/cities/Misouri.jpg": {
+    "file": "Misouri-AhBsKtfe.jpg",
+    "src": "src/assets/cities/Misouri.jpg"
+  },
+  "src/assets/cities/North-carloina.jpg": {
+    "file": "North-carloina-Zw7BivTY.jpg",
+    "src": "src/assets/cities/North-carloina.jpg"
+  },
+  "src/assets/cities/Pensylvania.jpg": {
+    "file": "Pensylvania-8-3DOYQY.jpg",
+    "src": "src/assets/cities/Pensylvania.jpg"
+  },
+  "src/assets/cities/alabama.jpg": {
+    "file": "alabama-dB00jPu2.jpg",
+    "src": "src/assets/cities/alabama.jpg"
+  },
+  "src/assets/cities/calif.jpg": {
+    "file": "calif-MAEdYWHS.jpg",
+    "src": "src/assets/cities/calif.jpg"
+  },
+  "src/assets/cities/colorado.jpg": {
+    "file": "colorado-NImFkyAl.jpg",
+    "src": "src/assets/cities/colorado.jpg"
+  },
+  "src/assets/cities/massachets.jpg": {
+    "file": "massachets-JoDgrzBa.jpg",
+    "src": "src/assets/cities/massachets.jpg"
+  },
+  "src/assets/cities/michigan.jpg": {
+    "file": "michigan-p-7oSsxn.jpg",
+    "src": "src/assets/cities/michigan.jpg"
+  },
+  "src/assets/cities/texas.jpg": {
+    "file": "texas-jk1aEbp_.jpg",
+    "src": "src/assets/cities/texas.jpg"
+  },
+  "src/assets/cities/washington.jpg": {
+    "file": "washington-yMdqb9Jn.jpg",
+    "src": "src/assets/cities/washington.jpg"
   },
   "src/assets/formcompletion.jpg": {
     "file": "formcompletion-gpQxkIMW.jpg",
@@ -174,14 +207,6 @@
   "src/assets/studyspectrumlogo.png": {
     "file": "studyspectrumlogo-qhKPV6mF.png",
     "src": "src/assets/studyspectrumlogo.png"
-  },
-  "src/assets/uk.png": {
-    "file": "uk--Rg8508U.png",
-    "src": "src/assets/uk.png"
-  },
-  "src/assets/usa.png": {
-    "file": "usa-AM9e6NO1.png",
-    "src": "src/assets/usa.png"
   },
   "src/assets/workprocess/Applytoinstitution.png": {
     "file": "Applytoinstitution-yAysj8Zq.png",
