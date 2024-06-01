@@ -15,9 +15,9 @@ def IndexView(request):
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Presidential Education Network API",
+        title="USA STUDY SPECTRUM API",
         default_version="v1",
-        description="Presidential Education Network  API docs",
+        description="USA STUDY SPECTRUM  API docs",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="contact@snippets.local"),
         license=openapi.License(name="BSD License"),
