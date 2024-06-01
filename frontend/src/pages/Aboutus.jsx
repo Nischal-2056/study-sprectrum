@@ -134,13 +134,12 @@ const Aboutus = () => {
             <div className="col-md-8 col-sm-12">
               <h2 className="fs-35 color-main">MESSAGE FROM THE CEO</h2>
               <p style={{ lineHeight: "25px", fontSize: "15px" }}>
-                Dear Presidential Family, I trust this message finds you well
+     I trust this message finds you well
                 and filled with the same enthusiasm for education that has been
                 the driving force behind the presidential journey thus far. As
                 we navigate the ever-evolving landscape of education, I am
                 delighted to share with you the exciting developments and
-                initiatives that will define our path forward. At Presidential
-                Education Network, our commitment to empowering individuals with
+                initiatives that will define our path forward. Our commitment is  to empower individuals with
                 the knowledge and skills to shape their destinies remains
                 unwavering. In the spirit of continuous improvement, we have
                 been diligently working to enhance our services and offerings to

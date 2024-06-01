@@ -247,9 +247,9 @@ const Studyusa = () => {
                 >
                   <Card.Text>
                     <p
-                      className=" "
+                      className="color-white "
                       style={{
-                        color: "#fea201",
+                      
                         fontSize: "18px",
                         marginBottom: "0px",
                         margin: "5px",
@@ -282,8 +282,9 @@ const Studyusa = () => {
                 >
                   <Card.Text>
                     <p
+                    className="color-white"
                       style={{
-                        color: "#fea201",
+                       
                         fontSize: "18px",
                         marginBottom: "0px",
                         margin: "5px",
@@ -316,7 +317,7 @@ const Studyusa = () => {
                 >
                   <Card.Text>
                     <p
-                      className=""
+                      className="color-white"
                       style={{
                         color: "#fea201",
                         fontSize: "18px",
@@ -473,7 +474,7 @@ const Studyusa = () => {
                   }}
                 >
                   <Card.Body className="text-center pt-2">
-                    <Card.Title className="color-secondary">
+                    <Card.Title className="">
                       Merit-Based Scholarship
                     </Card.Title>
                     <Card.Text
@@ -500,7 +501,7 @@ const Studyusa = () => {
                   }}
                 >
                   <Card.Body className="text-center pt-2">
-                    <Card.Title className="color-secondary">
+                    <Card.Title className="">
                       Need Based Scholarship
                     </Card.Title>
                     <Card.Text

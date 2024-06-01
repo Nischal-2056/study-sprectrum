@@ -1,23 +1,23 @@
 import "../styles/home.css";
 
 import AboutUsImg from "../assets/h-abt-us.png";
-// import Adsection from "../components/Ad.jsx"
-// import CarouselComponent from "../components/Carousel.jsx";
+ import Adsection from "../components/Ad.jsx"
+ import CarouselComponent from "../components/Carousel.jsx";
 import Destination from "../components/Destination.jsx";
 import WorkingProcess from "../components/Working-Process.jsx";
 import OurStrength from "../components/Our-Strength.jsx";
 
-// import Sliders from "../components/Sliders.jsx";
+ import Sliders from "../components/Sliders.jsx";
 
 const Home = () => {
   return (
     <div className="container-fluid" style={{ padding: "0px", margin: "0px" }}>
-      {/* <CarouselComponent /> */}
+       <CarouselComponent /> 
       <div
         className="w-100  position-relative "
         style={{ margin: "-36px 0px 1% 0" }}
       >
-        {/* <Adsection className="add-section col-md-10  " /> */}
+        <Adsection className="add-section col-md-10  " /> 
       </div>
       <div className="container">
         <div className="h-about-us-wrapper">
@@ -44,7 +44,7 @@ const Home = () => {
       <WorkingProcess />
 
       <OurStrength />
-      {/* <Sliders /> */}
+       <Sliders /> 
     </div>
   );
 };

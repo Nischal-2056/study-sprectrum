@@ -83,9 +83,7 @@ const IELTS = () => {const scoringData = [
                   }}
                 >
                   <Card.Body className="text-center pt-3 p-lg-2">
-                    <Card.Title className="color-secondary">
-                      IELTS ACADEMIC
-                    </Card.Title>
+                    <Card.Title className="">IELTS ACADEMIC</Card.Title>
                     <Card.Text
                       className="pt-lg-2"
                       style={{ textAlign: "left" }}
@@ -109,9 +107,7 @@ const IELTS = () => {const scoringData = [
                   }}
                 >
                   <Card.Body className="text-center pt-2">
-                    <Card.Title className="color-secondary">
-                      IELTS GENERAL TRAINING
-                    </Card.Title>
+                    <Card.Title className="">IELTS GENERAL TRAINING</Card.Title>
                     <Card.Text className="pt-2" style={{ textAlign: "left" }}>
                       IELTS General Training is the version of IELTS that is
                       designed for people who are planning to migrate and join
@@ -152,24 +148,24 @@ const IELTS = () => {const scoringData = [
                       <th
                         style={{
                           backgroundColor: "#0a2870",
-                          color: "#b31942",
+                          color: "#ffff",
                           padding: "4px",
                         }}
                       >
                         Listening (Acamdemic & General)
                       </th>
                       <th
-                        style={{ backgroundColor: "#0a2870", color: "#b31942" }}
+                        style={{ backgroundColor: "#0a2870", color: "#ffff" }}
                       >
                         Reading(Academic)
                       </th>
                       <th
-                        style={{ backgroundColor: "#0a2870", color: "#b31942" }}
+                        style={{ backgroundColor: "#0a2870", color: "#ffff" }}
                       >
                         Writing (Academic)
                       </th>
                       <th
-                        style={{ backgroundColor: "#0a2870", color: "#b31942" }}
+                        style={{ backgroundColor: "#0a2870", color: "#ffff" }}
                       >
                         Speaking (Acamdemic & General)
                       </th>
@@ -197,7 +193,7 @@ const IELTS = () => {const scoringData = [
                             className="p-lg-2 "
                             style={{
                               backgroundColor: "#0a2870",
-                              color: "#b31942",
+                              color: "#ffff",
                             }}
                           >
                             Speaking (Acamdemic & General)
@@ -219,7 +215,7 @@ const IELTS = () => {const scoringData = [
                             className="p-lg-2 "
                             style={{
                               backgroundColor: "#0a2870",
-                              color: "#b31942",
+                              color: "#ffff",
                             }}
                           >
                             Speaking (Acamdemic & General)
@@ -295,7 +291,7 @@ const IELTS = () => {const scoringData = [
                 <tr className="text-center">
                   <th
                     colSpan={2}
-                    style={{ backgroundColor: "#0a2870", color: "#b31942" }}
+                    style={{ backgroundColor: "#0a2870", color: "#ffff" }}
                   >
                     SCORING BASIS IN IELTS
                   </th>

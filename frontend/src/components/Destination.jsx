@@ -63,7 +63,7 @@ export default function Destination() {
             </div>
           </div>
           <div className="col-lg-8 col-sm-12">
-            <div className="d-flex pt-lg-5 mt-lg-5 pt-sm-0 gap-3 animate__animated animate__fadeInLeftBig animate__delay-1.5s">
+            <div className="d-flex pt-lg-5 mt-lg-5 pt-sm-0 gap-3 animate__animated animate__fadeInRightBig animate__delay-1.5s">
               <Row className="w-100">
                 {citydestination1.map((item) => (
                   <Col xs={6} sm={6} cla lg={3} key={item.title}>
@@ -85,7 +85,7 @@ export default function Destination() {
               </Row>
             </div>
           </div>
-          <div className="d-flex gap-3 pt-lg-3 pt-3 animate__animated animate__fadeInRightBig animate__delay-1.5s">
+          <div className="d-flex gap-3 pt-lg-3 pt-3 animate__animated animate__fadeInLeftBig animate__delay-1.5s">
             <Row className="w-100">
               {citydestination2.map((item) => (
                 <Col xs={6} sm={6} lg={2} key={item.title}>

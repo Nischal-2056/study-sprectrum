@@ -8,7 +8,7 @@ import Model from "../components/Model.jsx"
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-// import { testPreparation } from "../axios.service";
+import { testPreparation } from "../axios.service";
 
 export default function TestPreparationForm() {
   const [data, setFormData] = useState({
@@ -46,47 +46,47 @@ export default function TestPreparationForm() {
     console.log("hello2");
   };
 
-  // useEffect(() => {
-  //   console.log("hello4");
+  useEffect(() => {
+    console.log("hello4");
 
-  //   if (Object.keys(formerror).length === 0 && isSubmit) {
-  //     console.log("done");
+    if (Object.keys(formerror).length === 0 && isSubmit) {
+      console.log("done");
 
-  //     // Define an inner asynchronous function
-  //     const submitForm = async () => {
-  //       try {
-  //         // Await the testPreparation function call
-  //         const response = await testPreparation(
-  //           "contact/test-prepration/", // Adjust the URL accordingly
-  //           data
-  //         );
+      // Define an inner asynchronous function
+      const submitForm = async () => {
+        try {
+          // Await the testPreparation function call
+          const response = await testPreparation(
+            "contact/test-prepration/", // Adjust the URL accordingly
+            data
+          );
 
-  //         console.log("Form submitted successfully");
-  //          setShowModal(true);
+          console.log("Form submitted successfully");
+           setShowModal(true);
 
-  //         // alert( Model());
+          // alert( Model());
 
-  //         // Assuming you have a function to reset form data, replace setFormData with that function
-  //       } catch (error) {
-  //         console.error("Error submitting form:", error);
-  //       }
-  //     };
+          // Assuming you have a function to reset form data, replace setFormData with that function
+        } catch (error) {
+          console.error("Error submitting form:", error);
+        }
+      };
 
-  //     // Call the inner asynchronous function
-  //     submitForm();
-  //     setFormData({
-  //       full_name: "",
-  //       address: "",
-  //       contact_number: "",
-  //       passed_year: "",
-  //       gpa_percentage: "",
-  //       faculty: "",
-  //       desired_country: "",
-  //       email: "",
-  //       desired_course: "",
-  //     });
-  //   }
-  // }, [formerror, isSubmit]);
+      // Call the inner asynchronous function
+      submitForm();
+      setFormData({
+        full_name: "",
+        address: "",
+        contact_number: "",
+        passed_year: "",
+        gpa_percentage: "",
+        faculty: "",
+        desired_country: "",
+        email: "",
+        desired_course: "",
+      });
+    }
+  }, [formerror, isSubmit]);
 
   const validate = (values) => {
     console.log("hello3");
