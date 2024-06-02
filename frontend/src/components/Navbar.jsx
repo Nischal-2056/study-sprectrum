@@ -57,8 +57,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
               <di
                 style={{
                   backgroundColor: "white",
-                  height: "90px",
-                  width: "90px",
+                  height: "80px",
+                  width: "80px",
                   display: "flex",
                   justifyContent: "center",
                   borderRadius: "20%",
@@ -77,7 +77,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 />
               </di>
               <div
-                className="  pt-lg-4 justify-content-center  align-items-center"
+                className="  pt-lg-3 justify-content-center  align-items-center"
                 style={{
                   color: "#fea201",
                   fontFamily: "Impact",
