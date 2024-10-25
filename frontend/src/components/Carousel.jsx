@@ -35,7 +35,7 @@ const navigate=useNavigate();
         <Carousel controls={false}>
           {carousel && carousel.length > 0 ? (
             carousel.map((index) => (
-              <Carousel.Item key={index.id} interval={1000}>
+              <Carousel.Item key={index.id} interval={3000}>
                 {index.image && (
                   <img
                     style={{

@@ -8,9 +8,17 @@ import Studyaboard from "../assets/workprocess/Studyaboard.png";
 
 export default function WorkingProcess() {
   const workProcessingImgs = [
-    { id: 0, image: talkwithconselor, title: "Talk With Conselor" },
-    { id: 1, image: Testpreparationclass, title: "Test Preparation Class" },
-    { id: 2, image: Applytoinstitution, title: "Apply To Institution" },
+    {
+      id: 0,
+      image: talkwithconselor,
+      title: "Unlock Your Potential with Personalized Guidance",
+    },
+
+    {
+      id: 2,
+      image: Applytoinstitution,
+      title: "Apply to Institution with Seamless Application Process",
+    },
     { id: 3, image: Studyaboard, title: "Visa lodge and Go for the Study" },
   ];
   return (

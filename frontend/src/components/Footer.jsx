@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <>
       <footer className="container-fluid bg-main">
-        <div className="row content pt-2 bg-main ">
-          <div className="col-md-6 ">
-            <div className="mb-2">
+        <div className=" row    p-2 m-0  bg-main ">
+          <div className="col-md-4 mt-lg-2 " style={{paddingLeft:"40px"}}>
+            <div className="mb-2 ">
               <div
                 style={{
                   backgroundColor: "white",
@@ -55,7 +55,7 @@ const Footer = () => {
               <p>Sunday-Friday: 9 AM - 5 PM</p>
             </div> */}
           </div>
-          <div className="col-md-6 mt-lg-5 mt-sm-0">
+          <div className="col-md-6 mt-lg-5 pt-lg-5 mt-sm-0">
             <div className="row ">
               <div className="col-md-12 ">
                 <b>Links</b>
@@ -67,10 +67,15 @@ const Footer = () => {
                       About Us{" "}
                     </Link>
                   </li>
-                  <li>TOFEL</li>
                   <li>
-                    <Link to="/studyusa" className="nav-link  mx-sm-0">
-                      Study in USA
+                    <Link to="/tofel" className="nav-link  mx-sm-0">
+                      TOFEL
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/register" className="nav-link  mx-sm-0">
+                      Register
                     </Link>
                   </li>
                 </ul>
@@ -105,31 +110,31 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-md-4 ">
-                <ul className="p-0 m-0 ">
-                  <li>
-                    <Link to="/register" className="nav-link  mx-sm-0">
-                      Register
-                    </Link>
-                  </li>
-                </ul>
+                <span className=" p-0 m-0">Social Handles</span>
+                <div className="col-md-3 d-flex p-2 ">
+                  <span className="px-lg-2">
+                    <a
+                      style={{ color: "white" }}
+                      href="https://www.facebook.com/profile.php?id=61558632981092"
+                      target="_blank"
+                    >
+                      <FaFacebook style={{ height: "40px", width: "40px" }} />
+                    </a>
+                  </span>
+
+                  <span>
+                    <a
+                      style={{ color: "white" }}
+                      href="https://www.instagram.com/usastudyspectrum/?igsh=aXAxdGxtODdtejI4&utm_source=qr"
+                      target="_blank"
+                    >
+                      <FaInstagram style={{ height: "40px", width: "40px" }} />
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
-            <div className="col-md-6 pt-lg-5 pt-2">
-              <span className=" p-0 m-0">Social Handles</span>
-              <div className="col-md-3 d-flex p-2 ">
-                <span className="px-lg-2">
-                  <a
-                    style={{ color: "white" }}
-                    href="https://www.facebook.com/profile.php?id=61558632981092" target="_blank"
-                  >
-                    <FaFacebook style={{ height: "40px", width: "40px" }} />
-                  </a>
-                </span>
-                <span>
-                  <FaInstagram style={{ height: "40px", width: "40px" }} />
-                </span>
-              </div>
-            </div>
+            <div className="col-md-6 pt-lg-5 pt-2"></div>
           </div>
         </div>
       </footer>

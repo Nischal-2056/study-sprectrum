@@ -27,6 +27,7 @@
   .pteOverview {
     height: auto; /* or set a different height for small screens */
     background-size:auto;
+    object-fit: contain;
     /* or other appropriate size */
   }
 }

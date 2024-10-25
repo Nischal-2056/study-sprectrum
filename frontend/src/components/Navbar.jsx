@@ -1,20 +1,15 @@
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import  { useState, useEffect } from "react";
-import "../styles/navbar.css";
-import logos from "../assets/studyspectrumlogo.png";
-import { useNavigate, Link } from "react-router-dom";
-
-
+import { useState, useEffect } from "react";
+import "../styles/navbar.css"; // Import your CSS file
+import logos from "../assets/studyspectrumlogo.png"; // Logo image
+import { useNavigate, NavLink } from "react-router-dom"; // Use NavLink for active links
 
 const Navs = () => {
-
-const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const navigate = useNavigate();
 
   const handleNavigation = () => {
@@ -24,9 +19,11 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const closeDropdown = () => {
     if (screenWidth <= 768) {
       const toggleBtn = document.getElementById("toggle-btn");
-      toggleBtn.click();
+      toggleBtn && toggleBtn.click();
     }
-  };useEffect(() => {
+  };
+
+  useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
     };
@@ -41,20 +38,16 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
       <Navbar
         fixed="top"
         expand="lg"
-        style={{ backgroundColor: "#0a2870", color: "#ffff" }}
-        collapseOnSelect="true"
+        style={{ backgroundColor: "#0a2870", color: "#fff" }}
+        collapseOnSelect
       >
         <Container fluid>
-          <Navbar.Brand
-            onClick={handleNavigation}
-            className="mx-lg-4 mx-sm-0"
-            href="#"
-          >
+          <Navbar.Brand onClick={handleNavigation} className="mx-lg-4 mx-sm-0">
             <div
-              className="d-flex   justify-content-between align-item-center "
+              className="d-flex justify-content-between align-item-center"
               style={{ gap: "15px" }}
             >
-              <di
+              <div
                 style={{
                   backgroundColor: "white",
                   height: "80px",
@@ -63,172 +56,139 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   justifyContent: "center",
                   borderRadius: "20%",
                   alignItems: "center",
-
                   padding: "7px",
                 }}
               >
                 <img
                   src={logos}
                   alt="Logo"
-                  style={{
-                    maxWidth: "90px",
-                    maxHeight: "90px",
-                  }}
+                  style={{ maxWidth: "90px", maxHeight: "90px" }}
                 />
-              </di>
+              </div>
               <div
-                className="  pt-lg-3 justify-content-center  align-items-center"
-                style={{
-                  color: "#fea201",
-                  fontFamily: "Impact",
-                }}
+                className="pt-lg-3 justify-content-center align-items-center"
+                style={{ color: "#fea201", fontFamily: "Impact" }}
               >
                 <p
-                  className="   namelogo "
+                  className="namelogo"
                   style={{
                     margin: "0px",
                     padding: "0px",
                     fontSize: "34px",
                     color: "white",
-                    lineHeight:"30px"
+                    lineHeight: "30px",
                   }}
                 >
-                  USA STUDY <br></br>SPECTRUM
+                  USA STUDY <br /> SPECTRUM
                 </p>
               </div>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" id="toggle-btn" />
-          <Navbar.Collapse id="navbarScroll"  style={{paddingRight:"60px"}}className="mx-lg-1 ">
-            <Nav
-              className="  ms-auto  px-lg-4 px-sm-0 my-2 my-lg-0 "
-              //   style={{ maxHeight: "150px" }}
-            >
-              <Link
-                className="nav-link mx-lg-1 mx-sm-0 color-secondary"
+          <Navbar.Collapse
+            id="navbarScroll"
+            style={{ paddingRight: "60px" }}
+            className="mx-lg-1"
+          >
+            <Nav className="ms-auto px-lg-4 px-sm-0 my-2 my-lg-0">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link color-red" : "nav-link"
+                }
                 id="nav"
                 to="/"
                 onClick={closeDropdown}
               >
                 <b>HOME</b>
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link color-red" : "nav-link"
+                }
                 id="nav"
-                className={`nav-link mx-lg-1 mx-sm-0 fw-bold ${
-                  screenWidth < 1496 && "about-adjust"
-                }`}
                 to="/about"
                 onClick={closeDropdown}
               >
-                ABOUT US
-              </Link>
-              {/* <NavDropdown
-                className="mx-lg-3 mx-sm-0 fw-bold "
-                title="STUDY ABROAD"
-                id="navbarScrollingDropdown"
-
-                // Hide dropdown on mouse leave
-              >
-                <NavDropdown.Item style={{ padding: "unset", width: "100" }}> */}
-              <Link
-                // className=" fw-bold  dropdown-item d-flex justify-content-start"
+                <b>ABOUT US</b>
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link color-red" : "nav-link"
+                }
                 id="nav"
-                className={`nav-link mx-lg-1 mx-sm-0 fw-bold ${
-                  screenWidth < 1496 && "about-adjust"
-                }`}
                 to="/studyusa"
                 onClick={closeDropdown}
               >
                 <b>STUDY USA</b>
-              </Link>
-              {/* </NavDropdown.Item> */}
-
-              {/* <NavDropdown.Item style={{ padding: "unset", width: "100" }}>
-                  <Link
-                    className=" fw-bold  dropdown-item d-flex justify-content-start"
-                    to="/studycanada"
-                    onClick={closeDropdown}
-                  >
-                    STUDY IN CANADA
-                  </Link>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  style={{ padding: "unset", width: "100" }}
-                  className="fw-bold"
-                >
-                  <Link
-                    to="/studyUk"
-                    className=" fw-bold  dropdown-item d-flex justify-content-start"
-                    onClick={closeDropdown}
-                  >
-                    STUDY IN UK
-                  </Link>
-                </NavDropdown.Item> */}
-              {/* </NavDropdown> */}
+              </NavLink>
               <NavDropdown
-                className="mx-lg-1 mx-sm-0  fw-bold "
+                className="mx-lg-1 mx-sm-0 fw-bold"
                 title={<span className="dp">TEST PREPARATION</span>}
                 id="navbarScrollingDropdown"
-                // show={dropdownOpen === "testPreparation"}
-                // onToggle={() => handleDropdownToggle("testPreparation")}
               >
-                <NavDropdown.Item style={{ padding: "unset", width: "100" }}>
-                  <Link
+                <NavDropdown.Item>
+                  <NavLink
                     id="nav"
-                    className=" dropdown-item  bg-white  fw-bold"
-                    style={{ color: "black" }}
+                    className={({ isActive }) =>
+                      isActive ? "dropdown-item color-red" : "dropdown-item"
+                    }
                     to="/ielts"
                     onClick={closeDropdown}
                   >
                     IELTS
-                  </Link>
+                  </NavLink>
                 </NavDropdown.Item>
-                <NavDropdown.Item style={{ padding: "unset", width: "100" }}>
-                  {" "}
-                  <Link
+                <NavDropdown.Item>
+                  <NavLink
                     id="nav"
-                    className=" dropdown-item   bg-white fw-bold"
+                    className={({ isActive }) =>
+                      isActive ? "dropdown-item color-red" : "dropdown-item"
+                    }
                     to="/tofel"
                     onClick={closeDropdown}
                   >
-                    TOFEL
-                  </Link>
+                    TOEFL
+                  </NavLink>
                 </NavDropdown.Item>
-                <NavDropdown.Item style={{ padding: "unset", width: "100" }}>
-                  <Link
+                <NavDropdown.Item>
+                  <NavLink
                     id="nav"
-                    className=" dropdown-item  bg-white fw-bold"
+                    className={({ isActive }) =>
+                      isActive ? "dropdown-item color-red" : "dropdown-item"
+                    }
                     to="/pte"
                     onClick={closeDropdown}
                   >
                     PTE
-                  </Link>
+                  </NavLink>
                 </NavDropdown.Item>
-                <NavDropdown.Item style={{ padding: "unset", width: "100" }}>
-                  <Link
+                <NavDropdown.Item>
+                  <NavLink
                     id="nav"
-                    className=" dropdown-item  fw-bold"
+                    className={({ isActive }) =>
+                      isActive ? "dropdown-item color-red" : "dropdown-item"
+                    }
                     to="/duolingo"
                     onClick={closeDropdown}
                   >
                     DUOLINGO
-                  </Link>
+                  </NavLink>
                 </NavDropdown.Item>
               </NavDropdown>
-              <Link
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link color-red" : "nav-link"
+                }
                 id="nav"
-                className="nav-link mx-lg-1 mx-sm-0  fw-bold"
                 to="/contactus"
                 onClick={closeDropdown}
               >
-                CONTACT
-              </Link>
+                <b>CONTACT</b>
+              </NavLink>
             </Nav>
 
-            <Link to="/register">
-              {" "}
+            <NavLink to="/register">
               <Button
-                className=""
                 style={{
                   color: "white",
                   backgroundColor: "#C80104",
@@ -236,10 +196,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 }}
                 onClick={closeDropdown}
               >
-                {" "}
                 Register
               </Button>
-            </Link>
+            </NavLink>
           </Navbar.Collapse>
         </Container>
       </Navbar>

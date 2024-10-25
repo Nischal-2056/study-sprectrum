@@ -34,10 +34,10 @@ const handleNavigate = (path) => () => {
           </div>
 
           <div
-            className="row  d-flex justify-content-between"
+            className="row  d-flex justify-content-center"
             style={{ gap: "10px" }}
           >
-            <div className="col-md-5  ">
+            <div className="col-md-7  ">
               <Card
                 className=""
                 style={{
@@ -55,9 +55,9 @@ const handleNavigate = (path) => () => {
                   STUDY ABORAD
                 </Card.Title>
               </Card>
-            </div>
-            <div
-              className="col-md-5 "
+            </div> 
+            {/* <div
+              className="col-md-8 "
               onClick={handleNavigate("/testpreparation")}
             >
               <Card
@@ -67,7 +67,7 @@ const handleNavigate = (path) => () => {
                   backgroundColor: "#0a2870  ",
                 }}
               >
-                <img src={TestPreparation} style={{ height: "260px" }} />
+                <img src={TestPreparation} style={{ height: "360px" }} />
 
                 <Card.Title
                   className="p-3 text-center"
@@ -78,7 +78,7 @@ const handleNavigate = (path) => () => {
                   TEST PREPARATION
                 </Card.Title>
               </Card>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

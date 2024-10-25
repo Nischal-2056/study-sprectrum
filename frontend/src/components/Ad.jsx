@@ -29,14 +29,14 @@ const Ad = () => {
   return (
 
     <div className="container">
-      <Card className="" style={{ minHeight: "130px" }}>
+      <Card className="" >
         <div className="d-flex  justify-content-center adflex px-lg-5" >
-          <div className="col-md-4 col-sm-12 p-2">
+          <div className="col-md-4 col-sm-12 p-2 flex justify-content-start" style={{height:"300px",  }}>
             <Card.Img
-              className="img-fluid"
+              className="img-fluid "
               src={banner.image}
               alt="Scholarship Ad"
-              style={{ maxWidth: "100%", height: "auto" }}
+              style={{ width: "200%", height: "100%", objectFit:"cover" }}
             />
           </div>
           <div className="col-md-8 col-sm-12 p-2">

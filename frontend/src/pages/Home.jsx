@@ -14,12 +14,12 @@ const Home = () => {
     <div className="container-fluid" style={{ padding: "0px", margin: "0px" }}>
        <CarouselComponent /> 
       <div
-        className="w-100  position-relative "
+        className="w-100 h-100 position-relative "
         style={{ margin: "-36px 0px 1% 0" }}
       >
         <Adsection className="add-section col-md-10  " /> 
       </div>
-      <div className="container">
+       {/* <div className="container">
         <div className="h-about-us-wrapper">
           <div className="h-abt-us-description">
             <div className="h-abt-header color-main  fs-35">ABOUT US</div>
@@ -38,7 +38,7 @@ const Home = () => {
             <img src={AboutUsImg} className="h-abt-img" alt="" />
           </div>
         </div>
-      </div>
+      </div>  */}
 
       <Destination />
       <WorkingProcess />

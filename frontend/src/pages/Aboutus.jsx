@@ -6,12 +6,13 @@ import serv2 from "../assets/Aboutus/university.png"
 import serv1 from "../assets/Aboutus/testprepration.png"
 import messageceo from "../assets/Aboutus/messageCEO.png";
 import vison from"../assets/Aboutus/vision.png"
+import React from "react";
 
 const Aboutus = () => {
   return (
     <div className="container-fluid " style={{ padding: "0px", margin: "0px" }}>
-      <div className="backgroundimage aboutus container-fluid  pt-lg-5  mt-lg-5 ">
-        <div className="container pt-lg-5 mt-lg-5 ">
+      <div className="backgroundimage aboutus container-fluid  pt-lg-5 mt-lg-5 ">
+        <div className="container pt-lg-5 pt-3 pt-sm-3 mt-lg-5 mt-sm-3 d-flex flex-column">
           <span>
             <h1 className="fs-35 " style={{ color: "white" }}>
               ABOUT US
@@ -25,13 +26,20 @@ const Aboutus = () => {
                 color: "white",
               }}
             >
-              USA Study Spectrum is an educational consulting firm that
-              specializes in offering top-notch academic advice services to
-              students considering studying the USA With years of experience and
-              a staff of qualified advisors, Presidential provides excellent
-              guidance services for studying abroad. The presidential mission is
-              to mentor our students from the start and accompany them on every
-              step of the way as they pursue their academic goals.
+              At USA Study Spectrum, we are more than just an educational
+              consulting firm – we&#39;re your partners in navigating the
+              academic landscape of the USA. What makes us exceptional? Our team
+              comprises seasoned professionals, each a distinguished graduate of
+              prestigious universities across the United States. With firsthand
+              experience as both students and professionals in the country, we
+              offer unparalleled insight and tailored guidance to ensure your
+              academic success. Our commitment to professionalism and precision
+              guides every interaction with our clients. Whether you&#39;re
+              seeking assistance with university selection, application
+              guidance, or navigating visa processes, USA Study Spectrum is here
+              to provide personalized support every step of the way.<br></br>
+              <br></br> Trust USA Study Spectrum to be your dedicated partner in
+              unlocking the doors to a world-class education in the USA.
             </p>
           </div>
         </div>
@@ -50,13 +58,38 @@ const Aboutus = () => {
                   <h2 className="cardtitle fs-35 color-main ">OUR VISION</h2>
                 </div>
                 <Card.Text className="p-lg-4  fs-14 pt-3 pt-sm-3 p-2">
-                  Empowering individuals through personalized education
-                  solutions, fostering growth, and unlocking potential for a
-                  brighter future. And to be the premier global consultancy,
-                  redefining educational success through innovation, integrity,
-                  and impactful partnerships.
+                  Our vision at USA Study Spectrum is to be the global leader in
+                  educational consultancy, setting the standard for excellence
+                  and innovation in guiding students towards academic success in
+                  the United States. We aspire to create a transformative
+                  learning environment where individuals are empowered to
+                  achieve their educational goals, unlocking endless
+                  opportunities for personal and professional growth. Through
+                  our unwavering commitment to integrity, expertise, and
+                  personalized support, we aim to shape a brighter future for
+                  generations to come.
                 </Card.Text>
               </Card>
+              <Card
+                className="p-lg-4 mt-4 position-relative
+            "
+                style={{ borderRadius: "20px" }}
+              >
+                <div className="cardheader  vision position-absolute">
+                  <h2 className="cardtitle fs-35 color-main ">OUR MISSION</h2>
+                </div>
+                <Card.Text className="p-lg-4  fs-14 pt-3 pt-sm-3 p-2">
+                  Our mission at USA Study Spectrum is to empower individuals
+                  worldwide with personalized educational solutions,
+                  facilitating growth and unlocking their full potential for a
+                  brighter future. Through innovative approaches,
+                  integrity-driven practices, and impactful partnerships, we
+                  strive to redefine the educational consultancy landscape,
+                  ensuring that every student receives the guidance and support
+                  they need to succeed in their academic pursuits in the United
+                  States.
+                </Card.Text>
+              </Card>{" "}
             </div>
             <div className=" col-md-6 visionimg">
               <img src={vison} />
@@ -134,19 +167,20 @@ const Aboutus = () => {
             <div className="col-md-8 col-sm-12">
               <h2 className="fs-35 color-main">MESSAGE FROM THE CEO</h2>
               <p style={{ lineHeight: "25px", fontSize: "15px" }}>
-     I trust this message finds you well
-                and filled with the same enthusiasm for education that has been
-                the driving force behind the presidential journey thus far. As
-                we navigate the ever-evolving landscape of education, I am
-                delighted to share with you the exciting developments and
-                initiatives that will define our path forward. Our commitment is  to empower individuals with
-                the knowledge and skills to shape their destinies remains
-                unwavering. In the spirit of continuous improvement, we have
-                been diligently working to enhance our services and offerings to
-                better serve the diverse needs of our clients. Our team has been
-                actively engaging with educational institutions, professionals,
-                and students to ensure that we remain at the forefront of
-                innovation in the education consulting sector.
+                I trust this message finds you well and filled with the same
+                enthusiasm for education that has been the driving force behind
+                the presidential journey thus far. As we navigate the
+                ever-evolving landscape of education, I am delighted to share
+                with you the exciting developments and initiatives that will
+                define our path forward. Our commitment is to empower
+                individuals with the knowledge and skills to shape their
+                destinies remains unwavering. In the spirit of continuous
+                improvement, we have been diligently working to enhance our
+                services and offerings to better serve the diverse needs of our
+                clients. Our team has been actively engaging with educational
+                institutions, professionals, and students to ensure that we
+                remain at the forefront of innovation in the education
+                consulting sector.
               </p>
             </div>
             <div className="col-md-4 col-sm-12">
@@ -157,6 +191,7 @@ const Aboutus = () => {
       </div>
     </div>
   );
+   
 };
 
 export default Aboutus;
