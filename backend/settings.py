@@ -139,10 +139,17 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 MATERIAL_ADMIN_SITE = {
+<<<<<<< HEAD
     "HEADER": "USA STUDY SPECTRUM",
     "TITLE": "USA STUDY SPECTRUM",  # Admin site title
     "MAIN_BG_COLOR": "#124a76",
     "MAIN_HOVER_COLOR": "#124a76",  # Admin site main hover color, css color should be specified
+=======
+    "HEADER": "USA Study Spectrum",
+    "TITLE": "USA Study Spectrym",  # Admin site title
+    "MAIN_BG_COLOR": "#0a2870 ",
+    "MAIN_HOVER_COLOR": "#b31942",  # Admin site main hover color, css color should be specified
+>>>>>>> 10b422439b77947353279118663976a291c42a3d
     # "PROFILE_PICTURE": "path/to/image",  # Admin site profile picture (path to static should be specified)
     "SHOW_COUNTS": True,  # Show instances counts for each model
     "APP_ICONS": {
