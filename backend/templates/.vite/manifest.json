@@ -2,7 +2,6 @@
   "index.html": {
     "assets": [
       "studyspectrumlogo-qhKPV6mF.png",
-      "h-abt-us-drhjjnL7.png",
       "alabama-dB00jPu2.jpg",
       "calif-MAEdYWHS.jpg",
       "colorado-NImFkyAl.jpg",
@@ -14,7 +13,6 @@
       "texas-jk1aEbp_.jpg",
       "washington-yMdqb9Jn.jpg",
       "talkwithconselor-zRJZX8co.png",
-      "Testpreparationclass-fRkw7oWU.png",
       "Applytoinstitution-yAysj8Zq.png",
       "Studyaboard-XNDtNRuZ.png",
       "60plus-J1-ktPw7.png",
@@ -22,7 +20,6 @@
       "100plus-68PcNjiz.png",
       "academic-K4O1obdc.png",
       "StudyAborad-x44OfB2Y.png",
-      "Testpreparation-DzcxVXxU.png",
       "formcompletion-gpQxkIMW.jpg",
       "studentassit-AI5TCYDd.png",
       "university-cH7aP9zm.png",
@@ -48,9 +45,9 @@
       "sample4-GTzlzkcV.jpg"
     ],
     "css": [
-      "index-P_hlR5S_.css"
+      "index-ZOFYxhi5.css"
     ],
-    "file": "index-LwoOWOLk.js",
+    "file": "index-8WWmiH1b.js",
     "isEntry": true,
     "src": "index.html"
   },
